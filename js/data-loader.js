@@ -35,13 +35,14 @@ export async function fetchJSON(filename) {
  * Loads the core datasets required for global operations
  */
 export async function loadCoreData() {
-    const [movies, characters, relationships, events, variants] = await Promise.all([
+    const [movies, characters, relationships, events, variants, timeline] = await Promise.all([
         fetchJSON('movies.json'),
         fetchJSON('characters.json'),
         fetchJSON('relationships.json'),
         fetchJSON('events.json'),
-        fetchJSON('variants.json')
+        fetchJSON('variants.json'),
+        fetchJSON('timeline.json')
     ]);
     
-    return { movies, characters, relationships, events, variants };
+    return { movies, characters, relationships, events, variants, timeline };
 }

@@ -60,16 +60,72 @@ function renderCharacterDossier(charId, coreData) {
 
     document.getElementById('char-biography').textContent = char.biography || 'Biography unavailable.';
 
-    // Appearances (reverse-lookup from movies.json where this character is in characters array)
+    // Appearances and Journey
     const appearancesList = document.getElementById('char-appearances');
+    const journeyContainer = document.getElementById('char-journey-container');
+    
     if (coreData.movies) {
-        const moviesIn = coreData.movies.filter(m => m.characters && m.characters.includes(char.id));
+        let moviesIn = coreData.movies.filter(m => m.characters && m.characters.includes(char.id));
+        
+        // Appearances list
         appearancesList.innerHTML = moviesIn.map(m => `
             <a href="movies.html?id=${m.id}" class="entity-badge">
                 <strong>${m.title}</strong>
                 <span class="muted">${m.releaseYear}</span>
             </a>
         `).join('');
+
+        // Build Journey
+        if (coreData.timeline && journeyContainer) {
+            // Find all timeline entries for movies/events this character is in
+            let journeyEvents = [];
+            
+            moviesIn.forEach(m => {
+                const tlEntry = coreData.timeline.find(t => t.entityId === m.id);
+                if (tlEntry) {
+                    journeyEvents.push({
+                        year: tlEntry.chronologicalYear,
+                        title: m.title,
+                        id: m.id,
+                        type: 'movie'
+                    });
+                }
+            });
+            
+            if (coreData.events) {
+                const eventsIn = coreData.events.filter(e => {
+                    return coreData.relationships.some(r => r.source === char.id && r.target === e.id && r.type === 'participated-in');
+                });
+                eventsIn.forEach(e => {
+                    const tlEntry = coreData.timeline.find(t => t.entityId === e.id);
+                    journeyEvents.push({
+                        year: tlEntry ? tlEntry.chronologicalYear : e.date,
+                        title: e.name,
+                        id: e.id,
+                        type: 'event'
+                    });
+                });
+            }
+
+            journeyEvents.sort((a, b) => parseInt(a.year) - parseInt(b.year));
+
+            if (journeyEvents.length > 0) {
+                let journeyHtml = '<div class="timeline-line"></div>';
+                journeyEvents.forEach(evt => {
+                    journeyHtml += `
+                        <div class="journey-node">
+                            <div class="journey-year">${evt.year}</div>
+                            <div class="journey-content">
+                                <strong><a href="${evt.type === 'movie' ? 'movies.html' : 'events.html'}?id=${evt.id}">${evt.title}</a></strong>
+                            </div>
+                        </div>
+                    `;
+                });
+                journeyContainer.innerHTML = journeyHtml;
+            } else {
+                journeyContainer.innerHTML = '<p class="muted">Insufficient timeline data.</p>';
+            }
+        }
     }
 
     // Affiliations

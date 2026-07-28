@@ -41,7 +41,8 @@ const VALID_RELATIONSHIPS = new Set([
 const FILES = [
     'movies', 'series', 'characters', 'organizations', 
     'locations', 'artifacts', 'events', 'technologies', 
-    'universes', 'timeline', 'variants', 'branches', 'incursions'
+    'universes', 'timeline', 'variants', 'branches', 'incursions', 'storylines',
+    'cosmology', 'teams', 'powers'
 ];
 
 async function validate() {
@@ -79,6 +80,12 @@ async function validate() {
                             invalidEntities.push(`Entity ${entity.id} has malformed provenance schema.`);
                         }
                     });
+                }
+                
+                if (entity.provenance) {
+                    if (!["CONFIRMED", "INTERPRETATION", "UNCERTAIN"].includes(entity.provenance)) {
+                        invalidEntities.push(`Entity ${entity.id} has invalid provenance: ${entity.provenance}`);
+                    }
                 }
 
                 if (globalIds.has(entity.id)) {
@@ -121,6 +128,12 @@ async function validate() {
 
             if (!globalIds.has(rel.source)) brokenReferences.push(`Source ID not found: ${rel.source}`);
             if (!globalIds.has(rel.target)) brokenReferences.push(`Target ID not found: ${rel.target}`);
+
+            if (rel.provenance) {
+                if (!["CONFIRMED", "INTERPRETATION", "UNCERTAIN"].includes(rel.provenance)) {
+                    invalidRelationships.push(`Relationship at index ${index} has invalid provenance: ${rel.provenance}`);
+                }
+            }
 
             // Ontology validation
             const sourceType = idToType.get(rel.source);
@@ -176,27 +189,25 @@ async function validate() {
     console.log(`\nMCU ARCHIVE COVERAGE`);
     console.log(`────────────────────────────`);
     
-    // Count entities by type
-    const counts = {};
-    FILES.forEach(f => counts[f] = 0);
-    for (const [id, type] of idToType.entries()) {
-        if (counts[type] !== undefined) counts[type]++;
-    }
+    let fileStats = [];
+    FILES.forEach(file => {
+        const filePath = path.join(DATA_DIR, `${file}.json`);
+        let count = 0;
+        if (fs.existsSync(filePath)) {
+            const data = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
+            count = data.length;
+        }
+        fileStats.push({ name: file.charAt(0).toUpperCase() + file.slice(1), count });
+    });
     
-    console.log(`Movies                 ${counts['movies'] || 0}`);
-    console.log(`Series                 ${counts['series'] || 0}`);
-    console.log(`Characters             ${counts['characters'] || 0}`);
-    console.log(`Organizations          ${counts['organizations'] || 0}`);
-    console.log(`Locations              ${counts['locations'] || 0}`);
-    console.log(`Artifacts              ${counts['artifacts'] || 0}`);
-    console.log(`Technologies           ${counts['technologies'] || 0}`);
-    console.log(`Events                 ${counts['events'] || 0}`);
-    console.log(`Universes              ${counts['universes'] || 0}`);
-    console.log(`Variants               ${counts['variants'] || 0}`);
-    console.log(`Branches               ${counts['branches'] || 0}`);
-    console.log(`Incursions             ${counts['incursions'] || 0}`);
-    console.log(`Timeline Entries       ${timelineEntries}`);
-    console.log(`Relationships          ${relationships.length}`);
+    fileStats.push({ name: "Timeline Entries", count: globalIds.size ? JSON.parse(fs.readFileSync(path.join(DATA_DIR, 'timeline.json'), 'utf-8')).length : 0 });
+    fileStats.push({ name: "Relationships", count: relationships.length });
+
+    fileStats.forEach(stat => {
+        if (stat.name !== "Timeline" && stat.name !== "Relationships.json" && stat.name !== "Timeline.json") {
+            console.log(`${stat.name.padEnd(22)} ${stat.count}`);
+        }
+    });
 
     console.log(`\nINTEGRITY`);
     console.log(`────────────────────────────`);

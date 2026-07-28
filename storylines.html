@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MCU — Storylines</title>
+    <!-- SEO & Metadata -->
+    <meta name="description" content="An interactive cinematic archive and knowledge graph for exploring the Marvel Cinematic Universe.">
+    <meta name="theme-color" content="#e62429">
+    <link rel="icon" type="image/png" href="./assets/icon-192.png">
+    <link rel="manifest" href="./manifest.webmanifest">
+    <meta property="og:title" content="MCU Cinematic Archive">
+    <meta property="og:description" content="Explore the Marvel Cinematic Universe through an interactive knowledge graph and detailed timeline.">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Oswald:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/components.css">
+    <link rel="stylesheet" href="./css/animations.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" defer></script>
+    <script src="./js/sound.js" defer></script>
+    <script src="./js/data-loader.js" type="module"></script>
+    <script src="./js/search.js" type="module"></script>
+    <script src="./js/storylines.js" type="module"></script>
+    <style>
+        .storyline-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+        
+        .storyline-card {
+            background: rgba(255, 255, 255, 0.02);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            border-radius: 8px;
+            padding: 1.5rem;
+            cursor: pointer;
+            transition: all var(--transition-normal);
+        }
+        
+        .storyline-card:hover {
+            border-color: var(--clr-accent);
+            background: rgba(230, 36, 41, 0.05);
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(230, 36, 41, 0.1);
+        }
+        
+        .storyline-title {
+            font-family: var(--font-heading);
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .storyline-desc {
+            color: var(--clr-text-muted);
+            font-size: 0.9rem;
+            line-height: 1.5;
+        }
+
+        .storyline-path {
+            margin-top: 3rem;
+        }
+
+        .path-step {
+            display: flex;
+            gap: 2rem;
+            margin-bottom: 3rem;
+            position: relative;
+        }
+
+        .path-step::before {
+            content: '';
+            position: absolute;
+            left: 24px;
+            top: 50px;
+            bottom: -3rem;
+            width: 2px;
+            background: linear-gradient(to bottom, var(--clr-accent) 0%, rgba(230, 36, 41, 0) 100%);
+            z-index: 0;
+        }
+        
+        .path-step:last-child::before {
+            display: none;
+        }
+
+        .path-number {
+            width: 50px;
+            height: 50px;
+            background: var(--clr-bg);
+            border: 2px solid var(--clr-accent);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: var(--font-heading);
+            font-size: 1.2rem;
+            font-weight: 700;
+            z-index: 1;
+            flex-shrink: 0;
+            box-shadow: 0 0 15px rgba(230, 36, 41, 0.3);
+        }
+
+        .path-content {
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            padding: 1.5rem;
+            border-radius: 8px;
+            flex-grow: 1;
+        }
+
+        .path-entity {
+            font-family: var(--font-heading);
+            font-size: 1.25rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .path-entity a {
+            color: var(--clr-text);
+            text-decoration: none;
+        }
+
+        .path-entity a:hover {
+            color: var(--clr-accent);
+        }
+        
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: var(--clr-text-muted);
+            text-decoration: none;
+            margin-bottom: 2rem;
+            font-family: var(--font-heading);
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            transition: color var(--transition-fast);
+        }
+        
+        .back-link:hover {
+            color: var(--clr-accent);
+        }
+    </style>
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    <div id="noise-overlay"></div>
+    <header class="global-header">
+        <div class="logo"><h1>MCU <span>ARCHIVE</span></h1></div>
+        <nav class="main-nav">
+            <a href="./index.html">Home</a>
+            <a href="./timeline.html">Timeline</a>
+            <a href="./movies.html">Movies</a>
+            <a href="./characters.html">Characters</a>
+            <a href="./storylines.html" class="active">Storylines</a>
+            <a href="./connections.html">Connections</a>
+        </nav>
+        <div class="header-actions" style="display: flex; gap: 1rem; align-items: center;">
+            <button id="sound-toggle" class="icon-btn" aria-label="Toggle Sound" title="Toggle Sound">
+                <span class="icon sound-icon">🔇</span>
+            </button>
+            <button id="search-trigger" class="search-trigger"><span class="icon">⌕</span> Search <span>⌘K</span></button>
+        </div>
+    </header>
+
+    <main id="main-content" class="container" style="padding-top: 120px; padding-bottom: 100px;">
+        
+        <div id="storylines-list-view">
+            <h2 class="editorial-heading" style="font-size: clamp(2rem, 5vw, 4rem);">Narrative Pathways</h2>
+            <p class="muted" style="max-width: 600px; margin-top: 1rem; font-size: 1.1rem;">
+                Explore curated narrative journeys through the Marvel Cinematic Universe, tracing character arcs and the history of powerful artifacts.
+            </p>
+            <div id="storylines-grid" class="storyline-grid">
+                <!-- Injected via JS -->
+            </div>
+        </div>
+
+        <div id="storyline-detail-view" style="display: none;">
+            <a href="storylines.html" class="back-link">← Back to Storylines</a>
+            <h2 id="sl-title" class="editorial-heading" style="font-size: clamp(2.5rem, 6vw, 4.5rem);"></h2>
+            <p id="sl-desc" class="muted" style="max-width: 800px; margin-top: 1rem; font-size: 1.2rem; line-height: 1.6;"></p>
+            
+            <div id="sl-path" class="storyline-path">
+                <!-- Injected via JS -->
+            </div>
+        </div>
+        
+    </main>
+
+    <!-- Command Center -->
+    <dialog id="command-center" class="command-center" aria-label="Command Center">
+        <div class="command-center-container">
+            <div class="search-header">
+                <span class="icon" aria-hidden="true">⌕</span>
+                <input type="text" id="global-search-input" placeholder="Search the Marvel Cinematic Universe..." autocomplete="off" aria-label="Search the Marvel Cinematic Universe">
+                <button id="close-search" aria-label="Close search">ESC</button>
+            </div>
+            <div class="search-results" id="search-results"></div>
+        </div>
+    </dialog>
+</body>
+</html>

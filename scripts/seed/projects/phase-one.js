@@ -1,18 +1,103 @@
 module.exports = {
     movies: [
-        { "id": "movie-iron-man-2008", "title": "Iron Man", "releaseYear": "2008", "phase": "1", "synopsis": "After being held captive in an Afghan cave, billionaire engineer Tony Stark creates a unique weaponized suit of armor to fight evil.", "characters": ["char-tony-stark", "char-pepper-potts", "char-james-rhodes", "char-phil-coulson", "char-nick-fury"], "organizations": ["org-stark-industries", "org-shield", "org-ten-rings"], "locations": ["loc-earth"] },
-        { "id": "movie-incredible-hulk-2008", "title": "The Incredible Hulk", "releaseYear": "2008", "phase": "1", "synopsis": "Bruce Banner, a scientist on the run from the U.S. Government, must find a cure for the monster he turns into whenever he loses his temper.", "characters": ["char-bruce-banner", "char-tony-stark"], "organizations": ["org-shield"], "locations": ["loc-earth"] },
-        { "id": "movie-iron-man-2-2010", "title": "Iron Man 2", "releaseYear": "2010", "phase": "1", "synopsis": "With the world now aware of his identity as Iron Man, Tony Stark must contend with both his declining health and a vengeful mad man tied to his father's legacy.", "characters": ["char-tony-stark", "char-pepper-potts", "char-james-rhodes", "char-natasha-romanoff", "char-nick-fury", "char-phil-coulson"], "organizations": ["org-stark-industries", "org-shield"], "locations": ["loc-earth"] },
-        { "id": "movie-thor-2011", "title": "Thor", "releaseYear": "2011", "phase": "1", "synopsis": "The powerful but arrogant god Thor is cast out of Asgard to live amongst humans in Midgard (Earth), where he soon becomes one of their finest defenders.", "characters": ["char-thor", "char-loki", "char-phil-coulson", "char-clint-barton", "char-nick-fury"], "organizations": ["org-shield"], "locations": ["loc-asgard", "loc-earth"] },
-        { "id": "movie-cap-first-avenger-2011", "title": "Captain America: The First Avenger", "releaseYear": "2011", "phase": "1", "synopsis": "Steve Rogers, a rejected military soldier, transforms into Captain America after taking a dose of a Super-Soldier serum.", "characters": ["char-steve-rogers", "char-bucky-barnes", "char-nick-fury"], "organizations": ["org-shield", "org-hydra"], "locations": ["loc-earth"] },
-        { "id": "movie-avengers-2012", "title": "The Avengers", "releaseYear": "2012", "phase": "1", "synopsis": "Earth's mightiest heroes must come together and learn to fight as a team if they are going to stop the mischievous Loki and his alien army from enslaving humanity.", "characters": ["char-steve-rogers", "char-tony-stark", "char-thor", "char-bruce-banner", "char-natasha-romanoff", "char-clint-barton", "char-loki", "char-nick-fury", "char-phil-coulson"], "organizations": ["org-avengers", "org-shield"], "locations": ["loc-new-york", "loc-earth"], "events": ["event-battle-of-new-york"] }
+        { 
+            "id": "movie-iron-man-2008", "title": "Iron Man", "releaseYear": "2008", "phase": "1", 
+            "synopsis": "After being held captive in an Afghan cave, billionaire engineer Tony Stark creates a unique weaponized suit of armor to fight evil.", 
+            "director": "Jon Favreau", "runtime": "126m",
+            "characters": ["char-tony-stark", "char-pepper-potts", "char-james-rhodes", "char-phil-coulson", "char-nick-fury"], 
+            "villains": ["char-obadiah-stane"],
+            "organizations": ["org-stark-industries", "org-shield", "org-ten-rings"], 
+            "locations": ["loc-earth"],
+            "postCredits": [{ "description": "Nick Fury introduces the Avengers Initiative", "setup": "movie-avengers-2012" }],
+            "nextRelease": "movie-incredible-hulk-2008",
+            "provenance": "CONFIRMED"
+        },
+        { 
+            "id": "movie-incredible-hulk-2008", "title": "The Incredible Hulk", "releaseYear": "2008", "phase": "1", 
+            "synopsis": "Bruce Banner, a scientist on the run from the U.S. Government, must find a cure for the monster he turns into whenever he loses his temper.", 
+            "director": "Louis Leterrier", "runtime": "112m",
+            "characters": ["char-bruce-banner", "char-tony-stark"], 
+            "villains": ["char-abomination"],
+            "organizations": ["org-shield"], 
+            "locations": ["loc-earth"],
+            "postCredits": [{ "description": "Tony Stark approaches General Ross", "setup": "movie-avengers-2012" }],
+            "nextRelease": "movie-iron-man-2-2010"
+        },
+        { 
+            "id": "movie-iron-man-2-2010", "title": "Iron Man 2", "releaseYear": "2010", "phase": "1", 
+            "synopsis": "With the world now aware of his identity as Iron Man, Tony Stark must contend with both his declining health and a vengeful mad man tied to his father's legacy.", 
+            "director": "Jon Favreau", "runtime": "124m",
+            "characters": ["char-tony-stark", "char-pepper-potts", "char-james-rhodes", "char-natasha-romanoff", "char-nick-fury", "char-phil-coulson"], 
+            "villains": ["char-ivan-vanko", "char-justin-hammer"],
+            "organizations": ["org-stark-industries", "org-shield"], 
+            "locations": ["loc-earth"],
+            "postCredits": [{ "description": "Coulson discovers Mjolnir in New Mexico", "setup": "movie-thor-2011" }],
+            "nextRelease": "movie-thor-2011"
+        },
+        { 
+            "id": "movie-thor-2011", "title": "Thor", "releaseYear": "2011", "phase": "1", 
+            "synopsis": "The powerful but arrogant god Thor is cast out of Asgard to live amongst humans in Midgard (Earth), where he soon becomes one of their finest defenders.", 
+            "director": "Kenneth Branagh", "runtime": "115m",
+            "characters": ["char-thor", "char-loki", "char-phil-coulson", "char-clint-barton", "char-nick-fury"], 
+            "villains": ["char-loki"],
+            "organizations": ["org-shield"], 
+            "locations": ["loc-asgard", "loc-earth"],
+            "postCredits": [{ "description": "Selvig examines the Tesseract while Loki watches", "setup": "movie-avengers-2012" }],
+            "nextRelease": "movie-cap-first-avenger-2011"
+        },
+        { 
+            "id": "movie-cap-first-avenger-2011", "title": "Captain America: The First Avenger", "releaseYear": "2011", "phase": "1", 
+            "synopsis": "Steve Rogers, a rejected military soldier, transforms into Captain America after taking a dose of a Super-Soldier serum.", 
+            "director": "Joe Johnston", "runtime": "124m",
+            "characters": ["char-steve-rogers", "char-bucky-barnes", "char-nick-fury"], 
+            "villains": ["char-red-skull"],
+            "organizations": ["org-shield", "org-hydra"], 
+            "locations": ["loc-earth"],
+            "postCredits": [{ "description": "Steve Rogers wakes up in the 21st Century", "setup": "movie-avengers-2012" }],
+            "nextRelease": "movie-avengers-2012"
+        },
+        { 
+            "id": "movie-avengers-2012", "title": "The Avengers", "releaseYear": "2012", "phase": "1", 
+            "synopsis": "Earth's mightiest heroes must come together and learn to fight as a team if they are going to stop the mischievous Loki and his alien army from enslaving humanity.", 
+            "director": "Joss Whedon", "runtime": "143m",
+            "characters": ["char-steve-rogers", "char-tony-stark", "char-thor", "char-bruce-banner", "char-natasha-romanoff", "char-clint-barton", "char-loki", "char-nick-fury", "char-phil-coulson"], 
+            "villains": ["char-loki"],
+            "organizations": ["org-avengers", "org-shield"], 
+            "locations": ["loc-new-york", "loc-earth"], 
+            "events": ["event-battle-of-new-york"],
+            "postCredits": [
+                { "description": "Thanos turns to the camera", "setup": "movie-infinity-war-2018" },
+                { "description": "The Avengers eat Shawarma" }
+            ],
+            "nextRelease": "movie-iron-man-3-2013"
+        }
     ],
     characters: [
-        { "id": "char-tony-stark", "name": "Tony Stark", "aliases": ["Iron Man"] },
-        { "id": "char-pepper-potts", "name": "Pepper Potts", "aliases": ["Rescue"] },
-        { "id": "char-james-rhodes", "name": "James Rhodes", "aliases": ["War Machine", "Iron Patriot"] },
-        { "id": "char-steve-rogers", "name": "Steve Rogers", "aliases": ["Captain America"] },
-        { "id": "char-thor", "name": "Thor Odinson", "aliases": ["God of Thunder"] },
+        { 
+            "id": "char-tony-stark", "name": "Tony Stark", "aliases": ["Iron Man"],
+            "portrayedBy": "Robert Downey Jr.", "status": "Deceased",
+            "biography": "Genius, billionaire, playboy, philanthropist. After a life-changing kidnapping in Afghanistan, he built the Iron Man armor and became a founding member of the Avengers."
+        },
+        { 
+            "id": "char-pepper-potts", "name": "Pepper Potts", "aliases": ["Rescue"],
+            "portrayedBy": "Gwyneth Paltrow", "status": "Alive",
+            "biography": "Former CEO of Stark Industries and Tony Stark's wife. She donned the Rescue armor during the Battle of Earth."
+        },
+        { 
+            "id": "char-james-rhodes", "name": "James Rhodes", "aliases": ["War Machine", "Iron Patriot"],
+            "portrayedBy": "Don Cheadle", "status": "Alive",
+            "biography": "U.S. Air Force officer and Tony Stark's closest friend who operates the heavily armed War Machine armor."
+        },
+        { 
+            "id": "char-steve-rogers", "name": "Steve Rogers", "aliases": ["Captain America"],
+            "portrayedBy": "Chris Evans", "status": "Alive",
+            "biography": "A frail young man enhanced to the peak of human perfection by an experimental serum to aid the United States government's efforts in World War II."
+        },
+        { 
+            "id": "char-thor", "name": "Thor Odinson", "aliases": ["God of Thunder"],
+            "portrayedBy": "Chris Hemsworth", "status": "Alive",
+            "biography": "The former King of New Asgard and a founding member of the Avengers, wielding the enchanted hammer Mjolnir."
+        },
         { "id": "char-bruce-banner", "name": "Bruce Banner", "aliases": ["The Hulk"] },
         { "id": "char-natasha-romanoff", "name": "Natasha Romanoff", "aliases": ["Black Widow"] },
         { "id": "char-clint-barton", "name": "Clint Barton", "aliases": ["Hawkeye"] },

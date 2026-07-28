@@ -4,14 +4,20 @@
     "name": "Tony Stark",
     "aliases": [
       "Iron Man"
-    ]
+    ],
+    "portrayedBy": "Robert Downey Jr.",
+    "status": "Deceased",
+    "biography": "Genius, billionaire, playboy, philanthropist. After a life-changing kidnapping in Afghanistan, he built the Iron Man armor and became a founding member of the Avengers."
   },
   {
     "id": "char-pepper-potts",
     "name": "Pepper Potts",
     "aliases": [
       "Rescue"
-    ]
+    ],
+    "portrayedBy": "Gwyneth Paltrow",
+    "status": "Alive",
+    "biography": "Former CEO of Stark Industries and Tony Stark's wife. She donned the Rescue armor during the Battle of Earth."
   },
   {
     "id": "char-james-rhodes",
@@ -19,21 +25,30 @@
     "aliases": [
       "War Machine",
       "Iron Patriot"
-    ]
+    ],
+    "portrayedBy": "Don Cheadle",
+    "status": "Alive",
+    "biography": "U.S. Air Force officer and Tony Stark's closest friend who operates the heavily armed War Machine armor."
   },
   {
     "id": "char-steve-rogers",
     "name": "Steve Rogers",
     "aliases": [
       "Captain America"
-    ]
+    ],
+    "portrayedBy": "Chris Evans",
+    "status": "Alive",
+    "biography": "A frail young man enhanced to the peak of human perfection by an experimental serum to aid the United States government's efforts in World War II."
   },
   {
     "id": "char-thor",
     "name": "Thor Odinson",
     "aliases": [
       "God of Thunder"
-    ]
+    ],
+    "portrayedBy": "Chris Hemsworth",
+    "status": "Alive",
+    "biography": "The former King of New Asgard and a founding member of the Avengers, wielding the enchanted hammer Mjolnir."
   },
   {
     "id": "char-bruce-banner",

@@ -27,13 +27,18 @@ function renderMoviesList(movies) {
     
     grid.innerHTML = movies.map(movie => {
         let sagaClass = '';
-        if (movie.saga === 'Infinity Saga') sagaClass = 'saga-infinity';
-        else if (movie.saga === 'Multiverse Saga') sagaClass = 'saga-multiverse';
+        let posterUrl = './assets/posters/infinity.png';
+        if (movie.saga === 'Infinity Saga') {
+            sagaClass = 'saga-infinity';
+        } else if (movie.saga === 'Multiverse Saga') {
+            sagaClass = 'saga-multiverse';
+            posterUrl = './assets/posters/multiverse.png';
+        }
 
         return `
         <a href="movies.html?id=${movie.id}" class="movie-card ${sagaClass}">
             <div class="movie-card-inner hover-glow">
-                <div class="movie-card-placeholder">Poster Placeholder</div>
+                <div class="movie-card-poster" style="background-image: url('${posterUrl}'); background-size: cover; background-position: center; border-radius: 8px 8px 0 0; width: 100%; height: 400px;"></div>
                 <div class="movie-card-info">
                     <h3>${movie.title}</h3>
                     <span>${movie.releaseYear}</span>

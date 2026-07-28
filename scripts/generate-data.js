@@ -6,10 +6,24 @@ const DATA_DIR = path.join(__dirname, '../data');
 
 // Types of collections we are building
 const COLLECTIONS = [
-    'movies', 'series', 'characters', 'organizations', 
-    'locations', 'artifacts', 'events', 'technologies', 
-    'universes', 'timeline', 'relationships',
-    'variants', 'branches', 'incursions'
+    'movies',
+    'series',
+    'characters',
+    'organizations',
+    'locations',
+    'artifacts',
+    'technologies',
+    'events',
+    'universes',
+    'variants',
+    'branches',
+    'incursions',
+    'timeline',
+    'relationships',
+    'storylines',
+    'cosmology',
+    'teams',
+    'powers'
 ];
 
 function buildDataset() {

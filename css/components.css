@@ -553,3 +553,47 @@ a.entity-badge:hover {
 .graph-node--universe circle { fill: #aaaaaa; }
 
 
+
+/* Character Journey Timeline */
+.character-journey-timeline {
+    position: relative;
+    padding-left: 20px;
+    margin-top: 1rem;
+    border-left: 2px solid rgba(230, 36, 41, 0.3);
+}
+
+.journey-node {
+    position: relative;
+    margin-bottom: 1.5rem;
+    padding-left: 15px;
+}
+
+.journey-node::before {
+    content: '';
+    position: absolute;
+    left: -27px;
+    top: 5px;
+    width: 12px;
+    height: 12px;
+    background-color: var(--clr-bg);
+    border: 2px solid var(--clr-accent);
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.journey-year {
+    font-family: var(--font-heading);
+    font-size: 0.85rem;
+    color: var(--clr-accent);
+    margin-bottom: 0.25rem;
+}
+
+.journey-content a {
+    color: var(--clr-text);
+    text-decoration: none;
+    transition: color var(--transition-fast);
+}
+
+.journey-content a:hover {
+    color: var(--clr-accent);
+}

@@ -168,5 +168,26 @@
     "id": "tl-ant-man",
     "entityId": "movie-ant-man-2015",
     "chronologicalYear": 2015
+  },
+  {
+    "id": "tl-birth-of-universe",
+    "eventId": "event-birth-of-universe",
+    "year": "Before Time",
+    "order": 1,
+    "description": "Creation of the Infinity Stones."
+  },
+  {
+    "id": "tl-creation-of-eternals",
+    "eventId": "event-creation-of-eternals",
+    "year": "Millions of years ago",
+    "order": 2,
+    "description": "Arishem creates Eternals."
+  },
+  {
+    "id": "tl-vibranium-meteorite",
+    "eventId": "event-vibranium-meteorite",
+    "year": "Millions of years ago",
+    "order": 3,
+    "description": "Vibranium arrives on Earth."
   }
 ]

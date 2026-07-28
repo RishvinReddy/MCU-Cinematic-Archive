@@ -1,0 +1,18 @@
+module.exports = {
+    teams: [
+        {
+            id: "team-avengers",
+            name: "The Avengers",
+            description: "Earth's Mightiest Heroes.",
+            continuity: "MCU",
+            provenance: "CONFIRMED"
+        },
+        {
+            id: "team-x-men",
+            name: "X-Men",
+            description: "A team of mutant superheroes.",
+            continuity: "Comics",
+            provenance: "CONFIRMED"
+        }
+    ]
+};

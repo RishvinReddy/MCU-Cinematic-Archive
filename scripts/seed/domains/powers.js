@@ -1,0 +1,18 @@
+module.exports = {
+    powers: [
+        {
+            id: "power-iron-man-armor",
+            name: "Iron Man Armor",
+            description: "Advanced mechanized suits granting flight, superhuman strength, durability, and repulsor blasts.",
+            continuity: "MCU",
+            provenance: "CONFIRMED"
+        },
+        {
+            id: "power-super-soldier-serum",
+            name: "Super Soldier Serum",
+            description: "Enhances strength, speed, stamina, durability, reflexes, healing, and metabolism to extraordinary levels.",
+            continuity: "MCU",
+            provenance: "CONFIRMED"
+        }
+    ]
+};
