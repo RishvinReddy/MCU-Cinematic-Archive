@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiverse Explorer | MCU Archive</title>
+    <!-- SEO & Metadata -->
+    <meta name="description" content="An interactive cinematic archive and knowledge graph for exploring the Marvel Cinematic Universe.">
+    <meta name="theme-color" content="#e62429">
+    <link rel="icon" type="image/png" href="./assets/icon-192.png">
+    <link rel="manifest" href="./manifest.webmanifest">
+    <meta property="og:title" content="MCU Cinematic Archive">
+    <meta property="og:description" content="Explore the Marvel Cinematic Universe through an interactive knowledge graph and detailed timeline.">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/components.css">
+    <link rel="stylesheet" href="./css/animations.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" defer></script>
+    <script src="./js/search.js" type="module"></script>
+    <script src="./js/multiverse.js" type="module"></script>
+    <style>
+        .multiverse-container {
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+        .universe-card {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            padding: 2rem;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+        .universe-card:hover {
+            border-color: var(--clr-accent);
+            background: rgba(255, 255, 255, 0.08);
+        }
+        .branch-list {
+            margin-top: 1rem;
+            padding-left: 1.5rem;
+            border-left: 2px solid var(--clr-text-muted);
+        }
+    </style>
+</head>
+<body>
+    <div id="noise-overlay"></div>
+    
+    <nav class="top-nav">
+        <a href="index.html" class="nav-brand">MCU ARCHIVE</a>
+        <div class="nav-links">
+            <a href="timeline.html">TIMELINE</a>
+            <a href="connections.html">KNOWLEDGE GRAPH</a>
+            <button id="search-trigger" class="btn-icon">⌘K</button>
+        </div>
+    </nav>
+
+    <main class="container">
+        <header class="dossier-header" style="text-align: center; margin-bottom: 3rem;">
+            <div class="badge">MULTIVERSE EXPLORER</div>
+            <h1 class="glitch-text" data-text="THE MULTIVERSE">THE MULTIVERSE</h1>
+            <p class="lead-text" style="max-width: 600px; margin: 1rem auto;">
+                Map of known universes, timelines, and branches within the broader Marvel construct.
+            </p>
+        </header>
+
+        <div id="multiverse-container" class="multiverse-container">
+            <div class="muted" style="text-align: center;">Loading multiversal data...</div>
+        </div>
+    </main>
+
+    <dialog id="command-center" class="command-center">
+        <div class="command-center-header">
+            <input type="text" id="global-search-input" placeholder="Search the universe..." autocomplete="off">
+            <button id="close-search">ESC</button>
+        </div>
+        <div id="search-results" class="command-center-results"></div>
+    </dialog>
+</body>
+</html>

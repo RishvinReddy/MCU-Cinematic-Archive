@@ -1,0 +1,568 @@
+[
+  {
+    "source": "char-tony-stark",
+    "target": "movie-iron-man-2008",
+    "type": "appears-in"
+  },
+  {
+    "source": "char-tony-stark",
+    "target": "movie-iron-man-2-2010",
+    "type": "appears-in"
+  },
+  {
+    "source": "char-tony-stark",
+    "target": "movie-avengers-2012",
+    "type": "appears-in"
+  },
+  {
+    "source": "char-tony-stark",
+    "target": "char-pepper-potts",
+    "type": "partner-of"
+  },
+  {
+    "source": "char-tony-stark",
+    "target": "char-james-rhodes",
+    "type": "ally-of"
+  },
+  {
+    "source": "char-tony-stark",
+    "target": "org-avengers",
+    "type": "member-of"
+  },
+  {
+    "source": "char-tony-stark",
+    "target": "org-stark-industries",
+    "type": "member-of"
+  },
+  {
+    "source": "char-tony-stark",
+    "target": "tech-arc-reactor",
+    "type": "created-by"
+  },
+  {
+    "source": "char-tony-stark",
+    "target": "tech-iron-man-armor",
+    "type": "created-by"
+  },
+  {
+    "source": "char-tony-stark",
+    "target": "event-battle-of-new-york",
+    "type": "participated-in"
+  },
+  {
+    "source": "char-steve-rogers",
+    "target": "movie-cap-first-avenger-2011",
+    "type": "appears-in"
+  },
+  {
+    "source": "char-steve-rogers",
+    "target": "movie-avengers-2012",
+    "type": "appears-in"
+  },
+  {
+    "source": "char-steve-rogers",
+    "target": "char-bucky-barnes",
+    "type": "ally-of"
+  },
+  {
+    "source": "char-steve-rogers",
+    "target": "org-avengers",
+    "type": "member-of"
+  },
+  {
+    "source": "char-steve-rogers",
+    "target": "artifact-cap-shield",
+    "type": "possesses"
+  },
+  {
+    "source": "char-steve-rogers",
+    "target": "event-battle-of-new-york",
+    "type": "participated-in"
+  },
+  {
+    "source": "char-thor",
+    "target": "movie-thor-2011",
+    "type": "appears-in"
+  },
+  {
+    "source": "char-thor",
+    "target": "movie-avengers-2012",
+    "type": "appears-in"
+  },
+  {
+    "source": "char-thor",
+    "target": "char-loki",
+    "type": "sibling-of"
+  },
+  {
+    "source": "char-thor",
+    "target": "loc-asgard",
+    "type": "located-in"
+  },
+  {
+    "source": "char-thor",
+    "target": "artifact-mjolnir",
+    "type": "possesses"
+  },
+  {
+    "source": "char-thor",
+    "target": "org-avengers",
+    "type": "member-of"
+  },
+  {
+    "source": "char-thor",
+    "target": "event-battle-of-new-york",
+    "type": "participated-in"
+  },
+  {
+    "source": "char-bruce-banner",
+    "target": "org-avengers",
+    "type": "member-of"
+  },
+  {
+    "source": "char-natasha-romanoff",
+    "target": "org-avengers",
+    "type": "member-of"
+  },
+  {
+    "source": "char-clint-barton",
+    "target": "org-avengers",
+    "type": "member-of"
+  },
+  {
+    "source": "artifact-tesseract",
+    "target": "artifact-space-stone",
+    "type": "contains"
+  },
+  {
+    "source": "char-loki",
+    "target": "artifact-tesseract",
+    "type": "uses"
+  },
+  {
+    "source": "event-battle-of-new-york",
+    "target": "artifact-tesseract",
+    "type": "involves",
+    "context": {
+      "project": "movie-avengers-2012"
+    }
+  },
+  {
+    "source": "event-civil-war",
+    "target": "org-avengers",
+    "type": "involves"
+  },
+  {
+    "source": "char-steve-rogers",
+    "target": "event-civil-war",
+    "type": "participated-in"
+  },
+  {
+    "source": "char-tony-stark",
+    "target": "event-civil-war",
+    "type": "participated-in"
+  },
+  {
+    "source": "char-tchalla",
+    "target": "loc-wakanda",
+    "type": "located-in"
+  },
+  {
+    "source": "loc-wakanda",
+    "target": "artifact-vibranium",
+    "type": "contains"
+  },
+  {
+    "source": "char-steve-rogers",
+    "target": "artifact-vibranium",
+    "type": "uses"
+  },
+  {
+    "source": "char-stephen-strange",
+    "target": "org-masters-of-mystic-arts",
+    "type": "member-of"
+  },
+  {
+    "source": "artifact-eye-of-agamotto",
+    "target": "artifact-time-stone",
+    "type": "contains"
+  },
+  {
+    "source": "char-stephen-strange",
+    "target": "artifact-eye-of-agamotto",
+    "type": "possesses"
+  },
+  {
+    "source": "event-destruction-of-asgard",
+    "target": "loc-asgard",
+    "type": "destroyed-by"
+  },
+  {
+    "source": "char-thor",
+    "target": "event-destruction-of-asgard",
+    "type": "participated-in"
+  },
+  {
+    "source": "char-hela",
+    "target": "event-destruction-of-asgard",
+    "type": "caused-by"
+  },
+  {
+    "source": "char-hela",
+    "target": "char-thor",
+    "type": "sibling-of"
+  },
+  {
+    "source": "char-thor",
+    "target": "loc-sakaar",
+    "type": "located-in",
+    "context": {
+      "project": "movie-thor-ragnarok-2017"
+    }
+  },
+  {
+    "source": "char-thanos",
+    "target": "artifact-infinity-gauntlet",
+    "type": "possesses"
+  },
+  {
+    "source": "char-thanos",
+    "target": "artifact-space-stone",
+    "type": "possesses",
+    "context": {
+      "project": "movie-avengers-infinity-war-2018"
+    }
+  },
+  {
+    "source": "char-thanos",
+    "target": "artifact-mind-stone",
+    "type": "possesses",
+    "context": {
+      "project": "movie-avengers-infinity-war-2018"
+    }
+  },
+  {
+    "source": "char-thanos",
+    "target": "artifact-reality-stone",
+    "type": "possesses",
+    "context": {
+      "project": "movie-avengers-infinity-war-2018"
+    }
+  },
+  {
+    "source": "char-thanos",
+    "target": "artifact-power-stone",
+    "type": "possesses",
+    "context": {
+      "project": "movie-avengers-infinity-war-2018"
+    }
+  },
+  {
+    "source": "char-thanos",
+    "target": "artifact-time-stone",
+    "type": "possesses",
+    "context": {
+      "project": "movie-avengers-infinity-war-2018"
+    }
+  },
+  {
+    "source": "char-thanos",
+    "target": "artifact-soul-stone",
+    "type": "possesses",
+    "context": {
+      "project": "movie-avengers-infinity-war-2018"
+    }
+  },
+  {
+    "source": "loc-vormir",
+    "target": "artifact-soul-stone",
+    "type": "contains"
+  },
+  {
+    "source": "char-thanos",
+    "target": "loc-vormir",
+    "type": "located-in",
+    "context": {
+      "project": "movie-avengers-infinity-war-2018"
+    }
+  },
+  {
+    "source": "event-battle-of-wakanda",
+    "target": "event-the-snap",
+    "type": "leads-to"
+  },
+  {
+    "source": "char-thanos",
+    "target": "event-the-snap",
+    "type": "caused-by"
+  },
+  {
+    "source": "event-the-snap",
+    "target": "event-the-blip",
+    "type": "leads-to"
+  },
+  {
+    "source": "event-the-snap",
+    "target": "event-time-heist",
+    "type": "leads-to"
+  },
+  {
+    "source": "event-time-heist",
+    "target": "event-battle-of-earth",
+    "type": "leads-to"
+  },
+  {
+    "source": "event-battle-of-earth",
+    "target": "event-tony-sacrifice",
+    "type": "leads-to"
+  },
+  {
+    "source": "char-tony-stark",
+    "target": "event-tony-sacrifice",
+    "type": "participated-in"
+  },
+  {
+    "source": "char-thanos",
+    "target": "event-tony-sacrifice",
+    "type": "participated-in"
+  },
+  {
+    "source": "char-stephen-strange",
+    "target": "event-battle-of-titan",
+    "type": "participated-in"
+  },
+  {
+    "source": "char-tony-stark",
+    "target": "event-battle-of-titan",
+    "type": "participated-in"
+  },
+  {
+    "source": "char-peter-parker",
+    "target": "event-battle-of-titan",
+    "type": "participated-in"
+  },
+  {
+    "source": "char-thanos",
+    "target": "event-battle-of-titan",
+    "type": "participated-in"
+  },
+  {
+    "source": "char-steve-rogers",
+    "target": "event-battle-of-wakanda",
+    "type": "participated-in"
+  },
+  {
+    "source": "char-tchalla",
+    "target": "event-battle-of-wakanda",
+    "type": "participated-in"
+  },
+  {
+    "source": "char-bruce-banner",
+    "target": "event-battle-of-wakanda",
+    "type": "participated-in"
+  },
+  {
+    "source": "char-thor",
+    "target": "event-battle-of-wakanda",
+    "type": "participated-in"
+  },
+  {
+    "source": "char-vision",
+    "target": "event-battle-of-wakanda",
+    "type": "participated-in"
+  },
+  {
+    "source": "char-tony-stark",
+    "target": "char-peter-parker",
+    "type": "mentor-of"
+  },
+  {
+    "source": "event-fall-of-shield",
+    "target": "org-shield",
+    "type": "destroyed-by"
+  },
+  {
+    "source": "char-steve-rogers",
+    "target": "event-fall-of-shield",
+    "type": "participated-in"
+  },
+  {
+    "source": "char-natasha-romanoff",
+    "target": "event-fall-of-shield",
+    "type": "participated-in"
+  },
+  {
+    "source": "char-sam-wilson",
+    "target": "event-fall-of-shield",
+    "type": "participated-in"
+  },
+  {
+    "source": "char-bucky-barnes",
+    "target": "event-fall-of-shield",
+    "type": "participated-in"
+  },
+  {
+    "source": "char-peter-quill",
+    "target": "org-guardians",
+    "type": "member-of"
+  },
+  {
+    "source": "char-gamora",
+    "target": "org-guardians",
+    "type": "member-of"
+  },
+  {
+    "source": "char-drax",
+    "target": "org-guardians",
+    "type": "member-of"
+  },
+  {
+    "source": "char-rocket",
+    "target": "org-guardians",
+    "type": "member-of"
+  },
+  {
+    "source": "char-groot",
+    "target": "org-guardians",
+    "type": "member-of"
+  },
+  {
+    "source": "event-battle-of-xandar",
+    "target": "loc-xandar",
+    "type": "occurred-at"
+  },
+  {
+    "source": "event-battle-of-xandar",
+    "target": "org-guardians",
+    "type": "participated-in"
+  },
+  {
+    "source": "org-guardians",
+    "target": "artifact-power-stone",
+    "type": "uses"
+  },
+  {
+    "source": "artifact-orb",
+    "target": "artifact-power-stone",
+    "type": "contains"
+  },
+  {
+    "source": "event-battle-of-xandar",
+    "target": "artifact-power-stone",
+    "type": "involves"
+  },
+  {
+    "source": "char-ultron",
+    "target": "event-battle-of-sokovia",
+    "type": "caused-by"
+  },
+  {
+    "source": "char-ultron",
+    "target": "char-tony-stark",
+    "type": "created-by"
+  },
+  {
+    "source": "event-battle-of-sokovia",
+    "target": "loc-sokovia",
+    "type": "occurred-at"
+  },
+  {
+    "source": "event-battle-of-sokovia",
+    "target": "char-ultron",
+    "type": "participated-in"
+  },
+  {
+    "source": "event-battle-of-sokovia",
+    "target": "org-avengers",
+    "type": "participated-in"
+  },
+  {
+    "source": "char-vision",
+    "target": "artifact-mind-stone",
+    "type": "possesses"
+  },
+  {
+    "source": "artifact-scepter",
+    "target": "artifact-mind-stone",
+    "type": "contains"
+  },
+  {
+    "source": "artifact-aether",
+    "target": "artifact-reality-stone",
+    "type": "contains"
+  },
+  {
+    "source": "char-hank-pym",
+    "target": "artifact-pym-particles",
+    "type": "created-by"
+  },
+  {
+    "source": "char-scott-lang",
+    "target": "artifact-pym-particles",
+    "type": "uses"
+  },
+  {
+    "source": "variant-loki-2012",
+    "target": "char-loki",
+    "type": "variant-of"
+  },
+  {
+    "source": "char-sylvie",
+    "target": "char-loki",
+    "type": "variant-of"
+  },
+  {
+    "source": "variant-loki-2012",
+    "target": "org-tva",
+    "type": "encounters",
+    "context": {
+      "project": "series-loki",
+      "season": 1
+    }
+  },
+  {
+    "source": "char-mobius",
+    "target": "org-tva",
+    "type": "member-of"
+  },
+  {
+    "source": "universe-earth-616",
+    "target": "org-tva",
+    "type": "monitored-by"
+  },
+  {
+    "source": "char-he-who-remains",
+    "target": "event-multiversal-war",
+    "type": "participated-in"
+  },
+  {
+    "source": "char-he-who-remains",
+    "target": "org-tva",
+    "type": "created-by"
+  },
+  {
+    "source": "org-tva",
+    "target": "char-he-who-remains",
+    "type": "created-by"
+  },
+  {
+    "source": "timeline-2012-branch",
+    "target": "universe-earth-616",
+    "type": "branches-from"
+  },
+  {
+    "source": "timeline-2012-branch",
+    "target": "org-tva",
+    "type": "pruned-by"
+  },
+  {
+    "source": "variant-loki-2012",
+    "target": "timeline-2012-branch",
+    "type": "originates-from"
+  },
+  {
+    "source": "char-sylvie",
+    "target": "char-he-who-remains",
+    "type": "encounters"
+  }
+]

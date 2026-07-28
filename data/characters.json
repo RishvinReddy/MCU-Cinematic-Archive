@@ -1,0 +1,621 @@
+[
+  {
+    "id": "char-tony-stark",
+    "name": "Tony Stark",
+    "aliases": [
+      "Iron Man"
+    ]
+  },
+  {
+    "id": "char-pepper-potts",
+    "name": "Pepper Potts",
+    "aliases": [
+      "Rescue"
+    ]
+  },
+  {
+    "id": "char-james-rhodes",
+    "name": "James Rhodes",
+    "aliases": [
+      "War Machine",
+      "Iron Patriot"
+    ]
+  },
+  {
+    "id": "char-steve-rogers",
+    "name": "Steve Rogers",
+    "aliases": [
+      "Captain America"
+    ]
+  },
+  {
+    "id": "char-thor",
+    "name": "Thor Odinson",
+    "aliases": [
+      "God of Thunder"
+    ]
+  },
+  {
+    "id": "char-bruce-banner",
+    "name": "Bruce Banner",
+    "aliases": [
+      "The Hulk"
+    ]
+  },
+  {
+    "id": "char-natasha-romanoff",
+    "name": "Natasha Romanoff",
+    "aliases": [
+      "Black Widow"
+    ]
+  },
+  {
+    "id": "char-clint-barton",
+    "name": "Clint Barton",
+    "aliases": [
+      "Hawkeye"
+    ]
+  },
+  {
+    "id": "char-nick-fury",
+    "name": "Nick Fury",
+    "aliases": [
+      "Director of S.H.I.E.L.D."
+    ]
+  },
+  {
+    "id": "char-loki",
+    "name": "Loki Laufeyson",
+    "aliases": [
+      "God of Mischief"
+    ]
+  },
+  {
+    "id": "char-bucky-barnes",
+    "name": "Bucky Barnes",
+    "aliases": [
+      "The Winter Soldier"
+    ]
+  },
+  {
+    "id": "char-phil-coulson",
+    "name": "Phil Coulson",
+    "aliases": [
+      "Agent Coulson"
+    ]
+  },
+  {
+    "id": "char-deadpool",
+    "name": "Wade Wilson",
+    "aliases": [
+      "Deadpool"
+    ]
+  },
+  {
+    "id": "char-wolverine",
+    "name": "Logan",
+    "aliases": [
+      "Wolverine"
+    ]
+  },
+  {
+    "id": "char-cassandra-nova",
+    "name": "Cassandra Nova",
+    "aliases": []
+  },
+  {
+    "id": "char-paradox",
+    "name": "Paradox",
+    "aliases": [
+      "Mr. Paradox"
+    ]
+  },
+  {
+    "id": "char-b-15",
+    "name": "Hunter B-15",
+    "aliases": []
+  },
+  {
+    "id": "char-sue-storm",
+    "name": "Sue Storm",
+    "aliases": [
+      "Invisible Woman"
+    ]
+  },
+  {
+    "id": "char-johnny-storm",
+    "name": "Johnny Storm",
+    "aliases": [
+      "Human Torch"
+    ]
+  },
+  {
+    "id": "char-ben-grimm",
+    "name": "Ben Grimm",
+    "aliases": [
+      "The Thing"
+    ]
+  },
+  {
+    "id": "char-galactus",
+    "name": "Galactus",
+    "aliases": [
+      "Devourer of Worlds"
+    ]
+  },
+  {
+    "id": "char-silver-surfer",
+    "name": "Shalla-Bal",
+    "aliases": [
+      "Silver Surfer"
+    ]
+  },
+  {
+    "id": "char-stephen-strange",
+    "name": "Stephen Strange",
+    "aliases": [
+      "Doctor Strange"
+    ]
+  },
+  {
+    "id": "char-peter-parker",
+    "name": "Peter Parker",
+    "aliases": [
+      "Spider-Man"
+    ]
+  },
+  {
+    "id": "char-tchalla",
+    "name": "T'Challa",
+    "aliases": [
+      "Black Panther"
+    ]
+  },
+  {
+    "id": "char-carol-danvers",
+    "name": "Carol Danvers",
+    "aliases": [
+      "Captain Marvel"
+    ]
+  },
+  {
+    "id": "char-thanos",
+    "name": "Thanos",
+    "aliases": [
+      "The Mad Titan"
+    ]
+  },
+  {
+    "id": "char-hope-van-dyne",
+    "name": "Hope van Dyne",
+    "aliases": [
+      "The Wasp"
+    ]
+  },
+  {
+    "id": "char-hela",
+    "name": "Hela",
+    "aliases": [
+      "Goddess of Death"
+    ]
+  },
+  {
+    "id": "char-sam-wilson",
+    "name": "Sam Wilson",
+    "aliases": [
+      "Falcon"
+    ]
+  },
+  {
+    "id": "char-peter-quill",
+    "name": "Peter Quill",
+    "aliases": [
+      "Star-Lord"
+    ]
+  },
+  {
+    "id": "char-gamora",
+    "name": "Gamora",
+    "aliases": []
+  },
+  {
+    "id": "char-drax",
+    "name": "Drax",
+    "aliases": [
+      "The Destroyer"
+    ]
+  },
+  {
+    "id": "char-rocket",
+    "name": "Rocket Raccoon",
+    "aliases": [
+      "Rocket"
+    ]
+  },
+  {
+    "id": "char-groot",
+    "name": "Groot",
+    "aliases": []
+  },
+  {
+    "id": "char-ultron",
+    "name": "Ultron",
+    "aliases": []
+  },
+  {
+    "id": "char-vision",
+    "name": "Vision",
+    "aliases": []
+  },
+  {
+    "id": "char-wanda-maximoff",
+    "name": "Wanda Maximoff",
+    "aliases": [
+      "Scarlet Witch"
+    ]
+  },
+  {
+    "id": "char-scott-lang",
+    "name": "Scott Lang",
+    "aliases": [
+      "Ant-Man"
+    ]
+  },
+  {
+    "id": "char-hank-pym",
+    "name": "Hank Pym",
+    "aliases": [
+      "Original Ant-Man"
+    ]
+  },
+  {
+    "id": "char-mobius",
+    "name": "Mobius M. Mobius",
+    "aliases": [
+      "Agent Mobius"
+    ]
+  },
+  {
+    "id": "char-sylvie",
+    "name": "Sylvie",
+    "aliases": [
+      "The Variant"
+    ]
+  },
+  {
+    "id": "char-he-who-remains",
+    "name": "He Who Remains",
+    "aliases": []
+  },
+  {
+    "id": "char-jack-russell",
+    "name": "Jack Russell",
+    "aliases": [
+      "Werewolf by Night"
+    ]
+  },
+  {
+    "id": "char-elsa-bloodstone",
+    "name": "Elsa Bloodstone",
+    "aliases": []
+  },
+  {
+    "id": "char-man-thing",
+    "name": "Ted Sallis",
+    "aliases": [
+      "Man-Thing"
+    ]
+  },
+  {
+    "id": "char-kevin-bacon",
+    "name": "Kevin Bacon",
+    "aliases": []
+  },
+  {
+    "id": "char-mantis",
+    "name": "Mantis",
+    "aliases": []
+  },
+  {
+    "id": "char-cassie-lang",
+    "name": "Cassie Lang",
+    "aliases": [
+      "Stature"
+    ]
+  },
+  {
+    "id": "char-janet-van-dyne",
+    "name": "Janet Van Dyne",
+    "aliases": [
+      "Original Wasp"
+    ]
+  },
+  {
+    "id": "char-modok",
+    "name": "M.O.D.O.K.",
+    "aliases": [
+      "Darren Cross"
+    ]
+  },
+  {
+    "id": "char-high-evolutionary",
+    "name": "High Evolutionary",
+    "aliases": []
+  },
+  {
+    "id": "char-adam-warlock",
+    "name": "Adam Warlock",
+    "aliases": []
+  },
+  {
+    "id": "char-dar-benn",
+    "name": "Dar-Benn",
+    "aliases": []
+  },
+  {
+    "id": "char-talos",
+    "name": "Talos",
+    "aliases": []
+  },
+  {
+    "id": "char-gravik",
+    "name": "Gravik",
+    "aliases": []
+  },
+  {
+    "id": "char-giah",
+    "name": "G'iah",
+    "aliases": []
+  },
+  {
+    "id": "char-maria-hill",
+    "name": "Maria Hill",
+    "aliases": []
+  },
+  {
+    "id": "char-shang-chi",
+    "name": "Shang-Chi",
+    "aliases": []
+  },
+  {
+    "id": "char-xu-wenwu",
+    "name": "Xu Wenwu",
+    "aliases": [
+      "The Mandarin"
+    ]
+  },
+  {
+    "id": "char-katy",
+    "name": "Katy Chen",
+    "aliases": []
+  },
+  {
+    "id": "char-xu-xialing",
+    "name": "Xu Xialing",
+    "aliases": []
+  },
+  {
+    "id": "char-ying-nan",
+    "name": "Ying Nan",
+    "aliases": []
+  },
+  {
+    "id": "char-trevor-slattery",
+    "name": "Trevor Slattery",
+    "aliases": []
+  },
+  {
+    "id": "char-abomination",
+    "name": "Emil Blonsky",
+    "aliases": [
+      "Abomination"
+    ]
+  },
+  {
+    "id": "char-wong",
+    "name": "Wong",
+    "aliases": [
+      "Sorcerer Supreme"
+    ]
+  },
+  {
+    "id": "char-sersi",
+    "name": "Sersi",
+    "aliases": []
+  },
+  {
+    "id": "char-ikaris",
+    "name": "Ikaris",
+    "aliases": []
+  },
+  {
+    "id": "char-kingo",
+    "name": "Kingo",
+    "aliases": []
+  },
+  {
+    "id": "char-sprite",
+    "name": "Sprite",
+    "aliases": []
+  },
+  {
+    "id": "char-phastos",
+    "name": "Phastos",
+    "aliases": []
+  },
+  {
+    "id": "char-makkari",
+    "name": "Makkari",
+    "aliases": []
+  },
+  {
+    "id": "char-druig",
+    "name": "Druig",
+    "aliases": []
+  },
+  {
+    "id": "char-gilgamesh",
+    "name": "Gilgamesh",
+    "aliases": []
+  },
+  {
+    "id": "char-ajak",
+    "name": "Ajak",
+    "aliases": []
+  },
+  {
+    "id": "char-thena",
+    "name": "Thena",
+    "aliases": []
+  },
+  {
+    "id": "char-dane-whitman",
+    "name": "Dane Whitman",
+    "aliases": [
+      "Black Knight"
+    ]
+  },
+  {
+    "id": "char-arishem",
+    "name": "Arishem",
+    "aliases": [
+      "The Judge"
+    ]
+  },
+  {
+    "id": "char-mj",
+    "name": "Michelle Jones-Watson",
+    "aliases": [
+      "MJ"
+    ]
+  },
+  {
+    "id": "char-ned-leeds",
+    "name": "Ned Leeds",
+    "aliases": []
+  },
+  {
+    "id": "char-america-chavez",
+    "name": "America Chavez",
+    "aliases": []
+  },
+  {
+    "id": "char-christine-palmer",
+    "name": "Christine Palmer",
+    "aliases": []
+  },
+  {
+    "id": "char-jane-foster",
+    "name": "Jane Foster",
+    "aliases": [
+      "Mighty Thor"
+    ]
+  },
+  {
+    "id": "char-valkyrie",
+    "name": "Valkyrie",
+    "aliases": [
+      "King of New Asgard"
+    ]
+  },
+  {
+    "id": "char-gorr",
+    "name": "Gorr",
+    "aliases": [
+      "The God Butcher"
+    ]
+  },
+  {
+    "id": "char-korg",
+    "name": "Korg",
+    "aliases": []
+  },
+  {
+    "id": "char-zeus",
+    "name": "Zeus",
+    "aliases": []
+  },
+  {
+    "id": "char-shuri",
+    "name": "Shuri",
+    "aliases": [
+      "Black Panther"
+    ]
+  },
+  {
+    "id": "char-namor",
+    "name": "Namor",
+    "aliases": [
+      "Kukulkan"
+    ]
+  },
+  {
+    "id": "char-ramonda",
+    "name": "Ramonda",
+    "aliases": [
+      "Queen Mother"
+    ]
+  },
+  {
+    "id": "char-okoye",
+    "name": "Okoye",
+    "aliases": []
+  },
+  {
+    "id": "char-riri-williams",
+    "name": "Riri Williams",
+    "aliases": [
+      "Ironheart"
+    ]
+  },
+  {
+    "id": "char-mbaku",
+    "name": "M'Baku",
+    "aliases": []
+  },
+  {
+    "id": "char-nakia",
+    "name": "Nakia",
+    "aliases": []
+  },
+  {
+    "id": "char-everett-ross",
+    "name": "Everett Ross",
+    "aliases": []
+  },
+  {
+    "id": "char-charles-xavier",
+    "name": "Charles Xavier",
+    "aliases": [
+      "Professor X"
+    ]
+  },
+  {
+    "id": "char-reed-richards",
+    "name": "Reed Richards",
+    "aliases": [
+      "Mister Fantastic"
+    ]
+  },
+  {
+    "id": "char-peggy-carter",
+    "name": "Peggy Carter",
+    "aliases": [
+      "Captain Carter"
+    ]
+  },
+  {
+    "id": "char-norman-osborn",
+    "name": "Norman Osborn",
+    "aliases": [
+      "Green Goblin"
+    ]
+  },
+  {
+    "id": "char-otto-octavius",
+    "name": "Otto Octavius",
+    "aliases": [
+      "Doctor Octopus"
+    ]
+  }
+]

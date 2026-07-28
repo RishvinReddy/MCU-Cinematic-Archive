@@ -1,0 +1,118 @@
+[
+  {
+    "id": "event-battle-of-new-york",
+    "name": "Battle of New York",
+    "date": "2012",
+    "location": "loc-new-york"
+  },
+  {
+    "id": "event-civil-war",
+    "name": "Avengers Civil War",
+    "date": "2016",
+    "location": "loc-earth"
+  },
+  {
+    "id": "event-destruction-of-asgard",
+    "name": "Destruction of Asgard",
+    "date": "2017",
+    "location": "loc-asgard"
+  },
+  {
+    "id": "event-battle-of-titan",
+    "name": "Battle of Titan",
+    "date": "2018",
+    "location": "loc-titan"
+  },
+  {
+    "id": "event-battle-of-wakanda",
+    "name": "Battle of Wakanda",
+    "date": "2018",
+    "location": "loc-wakanda"
+  },
+  {
+    "id": "event-the-snap",
+    "name": "The Snap",
+    "date": "2018",
+    "location": "loc-wakanda",
+    "sources": [
+      {
+        "title": "Avengers: Infinity War",
+        "url": "https://marvel.com",
+        "publisher": "Marvel",
+        "type": "official"
+      }
+    ]
+  },
+  {
+    "id": "event-the-blip",
+    "name": "The Blip",
+    "date": "2023",
+    "location": "loc-earth"
+  },
+  {
+    "id": "event-time-heist",
+    "name": "Time Heist",
+    "date": "2023",
+    "location": "loc-quantum-realm"
+  },
+  {
+    "id": "event-battle-of-earth",
+    "name": "Battle of Earth",
+    "date": "2023",
+    "location": "loc-earth"
+  },
+  {
+    "id": "event-tony-sacrifice",
+    "name": "Tony Stark's Sacrifice",
+    "date": "2023",
+    "location": "loc-earth"
+  },
+  {
+    "id": "event-fall-of-shield",
+    "name": "Fall of S.H.I.E.L.D.",
+    "date": "2014",
+    "location": "loc-earth"
+  },
+  {
+    "id": "event-battle-of-xandar",
+    "name": "Battle of Xandar",
+    "date": "2014",
+    "location": "loc-xandar"
+  },
+  {
+    "id": "event-battle-of-sokovia",
+    "name": "Battle of Sokovia",
+    "date": "2015",
+    "location": "loc-sokovia"
+  },
+  {
+    "id": "event-multiversal-war",
+    "name": "Multiversal War",
+    "date": "Unknown",
+    "location": "loc-end-of-time"
+  },
+  {
+    "id": "event-the-emergence",
+    "name": "The Emergence",
+    "date": "2023",
+    "location": "loc-earth"
+  },
+  {
+    "id": "event-runes-of-kauf-kaul",
+    "name": "Runes of Kof-Kol",
+    "date": "2024",
+    "location": "loc-new-york-sanctum"
+  },
+  {
+    "id": "event-assault-on-kamar-taj",
+    "name": "Assault on Kamar-Taj",
+    "date": "2024",
+    "location": "loc-kamar-taj"
+  },
+  {
+    "id": "event-the-hex",
+    "name": "The Westview Hex",
+    "date": "2023",
+    "location": "loc-westview"
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "name": "MCU Cinematic Archive",
+  "short_name": "MCU Archive",
+  "description": "An interactive cinematic archive and knowledge graph for exploring the Marvel Cinematic Universe.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#111111",
+  "theme_color": "#e62429",
+  "icons": [
+    {
+      "src": "./assets/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "./assets/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

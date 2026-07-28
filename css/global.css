@@ -1,0 +1,220 @@
+/* --- GLOBAL VARIABLES --- */
+:root {
+    /* Color Palette */
+    --clr-bg-base: #050505;
+    --clr-bg-surface: rgba(20, 20, 25, 0.7);
+    --clr-text-main: #f5f5f5;
+    --clr-text-muted: #a0a0a5;
+    
+    --clr-accent: #e62429; /* Marvel Red, used sparingly */
+    --clr-accent-glow: rgba(230, 36, 41, 0.3);
+    
+    /* Saga Atmospheres */
+    --clr-saga-infinity: rgba(147, 51, 234, 0.15); /* Purple / Gold atmosphere */
+    --clr-saga-infinity-glow: rgba(147, 51, 234, 0.4);
+    --clr-saga-multiverse: rgba(59, 130, 246, 0.15); /* Blue / Violet atmosphere */
+    --clr-saga-multiverse-glow: rgba(59, 130, 246, 0.4);
+
+    --clr-border: rgba(255, 255, 255, 0.1);
+    
+    /* Semantic Entity Colors */
+    --entity-character: #d8d8d8;
+    --entity-movie: #e62429;
+    --entity-event: #d89a3d;
+    --entity-organization: #547da8;
+    --entity-location: #718b6a;
+    --entity-artifact: #9879b8;
+    
+    /* Typography */
+    --font-heading: 'Oswald', sans-serif;
+    --font-body: 'Inter', sans-serif;
+    
+    /* Spacing */
+    --spacing-xs: 0.5rem;
+    --spacing-sm: 1rem;
+    --spacing-md: 2rem;
+    --spacing-lg: 4rem;
+    --spacing-xl: 8rem;
+    
+    /* Animations */
+    --transition-fast: 0.2s ease;
+    --transition-smooth: 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* --- RESET & BASE --- */
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--clr-bg-base);
+    color: var(--clr-text-main);
+    font-family: var(--font-body);
+    line-height: 1.6;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* Typography Base */
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-weight: 600;
+}
+
+/* Editorial Cinematic Typography */
+.editorial-heading {
+    font-family: var(--font-heading);
+    font-size: clamp(3rem, 8vw, 6rem);
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    margin-bottom: var(--spacing-sm);
+}
+
+.editorial-meta {
+    font-family: var(--font-body);
+    font-size: 0.9rem;
+    letter-spacing: 0.2em;
+    color: var(--clr-text-muted);
+    text-transform: uppercase;
+    margin-bottom: var(--spacing-md);
+    border-bottom: 1px solid var(--clr-border);
+    padding-bottom: var(--spacing-xs);
+    display: inline-block;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    transition: color var(--transition-fast);
+}
+
+/* --- CINEMATIC EFFECTS --- */
+
+/* Film Grain Overlay */
+#noise-overlay {
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    pointer-events: none;
+    z-index: 9999;
+    opacity: 0.04;
+    background-image: url('data:image/svg+xml,%3Csvg viewBox=%220 0 200 200%22 xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cfilter id=%22noiseFilter%22%3E%3CfeTurbulence type=%22fractalNoise%22 baseFrequency=%220.8%22 numOctaves=%223%22 stitchTiles=%22stitch%22/%3E%3C/filter%3E%3Crect width=%22100%25%22 height=%22100%25%22 filter=%22url(%23noiseFilter)%22/%3E%3C/svg%3E');
+}
+
+/* --- LAYOUT UTILITIES --- */
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 var(--spacing-md);
+}
+
+.grid {
+    display: grid;
+    gap: var(--spacing-md);
+}
+
+/* --- HEADER NAVIGATION --- */
+.global-header {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 var(--spacing-lg);
+    z-index: 1000;
+    background: linear-gradient(to bottom, rgba(5,5,5,0.9) 0%, rgba(5,5,5,0) 100%);
+    backdrop-filter: blur(4px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.logo h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+}
+.logo span {
+    font-weight: 300;
+    color: var(--clr-text-muted);
+}
+
+.main-nav {
+    display: flex;
+    gap: var(--spacing-md);
+}
+
+.main-nav a {
+    font-family: var(--font-heading);
+    font-size: 0.9rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--clr-text-muted);
+    position: relative;
+}
+
+.main-nav a:hover,
+.main-nav a.active {
+    color: var(--clr-text-main);
+}
+
+.main-nav a::after {
+    content: '';
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background-color: var(--clr-accent);
+    transition: width var(--transition-smooth);
+}
+
+.main-nav a.active::after,
+.main-nav a:hover::after {
+    width: 100%;
+}
+
+/* Saga Styling Classes */
+.saga-infinity {
+    --saga-color: var(--clr-saga-infinity);
+    --saga-glow: var(--clr-saga-infinity-glow);
+}
+
+.saga-multiverse {
+    --saga-color: var(--clr-saga-multiverse);
+    --saga-glow: var(--clr-saga-multiverse-glow);
+}
+
+.saga-ambient-bg {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    pointer-events: none;
+    z-index: -1;
+    background: radial-gradient(circle at top, var(--saga-color, transparent) 0%, transparent 60%);
+    opacity: 0.5;
+}
+
+/* Accessibility */
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: var(--clr-accent);
+    color: white;
+    padding: 8px;
+    z-index: 9999;
+    transition: top 0.2s ease-out;
+}
+
+.skip-link:focus {
+    top: 0;
+}
+
+:focus-visible {
+    outline: 2px solid var(--clr-accent);
+    outline-offset: 4px;
+}

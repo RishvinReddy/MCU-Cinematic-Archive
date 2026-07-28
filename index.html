@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MCU — The Complete Cinematic Archive</title>
+    <!-- SEO & Metadata -->
+    <meta name="description" content="An interactive cinematic archive and knowledge graph for exploring the Marvel Cinematic Universe.">
+    <meta name="theme-color" content="#e62429">
+    <link rel="icon" type="image/png" href="./assets/icon-192.png">
+    <link rel="manifest" href="./manifest.webmanifest">
+    <meta property="og:title" content="MCU Cinematic Archive">
+    <meta property="og:description" content="Explore the Marvel Cinematic Universe through an interactive knowledge graph and detailed timeline.">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="description" content="An interactive cinematic presentation and encyclopedia of the Marvel Cinematic Universe.">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Oswald:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/components.css">
+    <link rel="stylesheet" href="./css/animations.css">
+    
+    <!-- GSAP for Animations -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" defer></script>
+    
+    <!-- D3 for Graph (loaded lazily on demand or deferred here) -->
+    <script src="https://d3js.org/d3.v7.min.js" defer></script>
+    
+    <!-- App Scripts -->
+    <script src="./js/sound.js" defer></script>
+    <script src="./js/data-loader.js" type="module"></script>
+    <script src="./js/search.js" type="module"></script>
+    <script src="./js/app.js" type="module"></script>
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    <div id="noise-overlay"></div>
+
+    <header class="global-header">
+        <div class="logo">
+            <h1>MCU <span>ARCHIVE</span></h1>
+        </div>
+        <nav class="main-nav">
+            <a href="./index.html" class="active">Home</a>
+            <a href="./timeline.html">Timeline</a>
+            <a href="./movies.html">Movies</a>
+            <a href="./characters.html">Characters</a>
+            <a href="./connections.html">Connections</a>
+        </nav>
+        <div class="header-actions" style="display: flex; gap: 1rem; align-items: center;">
+            <button id="sound-toggle" class="icon-btn" aria-label="Toggle Sound" title="Toggle Sound">
+                <span class="icon sound-icon">🔇</span>
+            </button>
+            <button id="search-trigger" class="search-trigger">
+                <span class="icon">⌕</span> Search <span>⌘K</span>
+            </button>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <!-- Cinematic Opening Hero -->
+        <section class="hero-section cinematic-intro">
+            <div class="hero-content">
+                <h2 class="hero-kicker editorial-meta">2008 — PRESENT</h2>
+                <h1 class="hero-title editorial-heading">MARVEL CINEMATIC UNIVERSE</h1>
+                <h3 class="hero-subtitle">THE COMPLETE ARCHIVE</h3>
+                <p class="hero-description">One universe. Hundreds of characters. Decades of interconnected stories.</p>
+                <button class="btn-primary" id="enter-universe-btn">[ ENTER THE UNIVERSE ]</button>
+            </div>
+            <div class="scroll-indicator">
+                <span>SCROLL TO EXPLORE</span>
+                <div class="line"></div>
+            </div>
+        </section>
+
+        <!-- Cinematic Showcase Area -->
+        <section id="showcase-area" class="showcase-section saga-infinity">
+            <div class="saga-ambient-bg"></div>
+            <div class="phase-header container gsap-reveal">
+                <h4 class="phase-subtitle editorial-meta">2008 — 2012</h4>
+                <h2 class="phase-title editorial-heading">THE INFINITY SAGA</h2>
+                <h3 class="phase-accent">PHASE ONE</h3>
+            </div>
+            
+            <!-- We will populate this via JS, but leave a structural wrapper -->
+            <div id="phase-one-movies" class="movies-horizontal-scroll">
+                <!-- Movie cards injected here -->
+            </div>
+        </section>
+    </main>
+
+    <!-- Command Center (Search Overlay) -->
+    <dialog id="command-center" class="command-center" aria-label="Command Center">
+        <div class="command-center-container">
+            <div class="search-header">
+                <span class="icon" aria-hidden="true">⌕</span>
+                <input type="text" id="global-search-input" placeholder="Search the Marvel Cinematic Universe..." autocomplete="off" aria-label="Search the Marvel Cinematic Universe">
+                <button id="close-search" aria-label="Close search">ESC</button>
+            </div>
+            <div class="search-results" id="search-results">
+                <!-- Search results injected here -->
+            </div>
+        </div>
+    </dialog>
+
+</body>
+</html>

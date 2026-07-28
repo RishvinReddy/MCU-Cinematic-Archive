@@ -1,0 +1,14 @@
+[
+  {
+    "id": "universe-earth-616",
+    "name": "Earth-616",
+    "designation": "Sacred Timeline",
+    "description": "The baseline universe of the Marvel Cinematic Universe where the events of the Infinity Saga primarily occurred."
+  },
+  {
+    "id": "universe-earth-838",
+    "name": "Earth-838",
+    "designation": "Illuminati Universe",
+    "description": "An alternate universe where the Illuminati successfully defeated Thanos, but at a great cost."
+  }
+]

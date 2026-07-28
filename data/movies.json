@@ -1,0 +1,1006 @@
+[
+  {
+    "id": "movie-ant-man-quantumania-2023",
+    "title": "Ant-Man and the Wasp: Quantumania",
+    "releaseYear": "2023",
+    "phase": "5",
+    "saga": "Multiverse Saga",
+    "director": "Peyton Reed",
+    "synopsis": "Scott Lang and Hope Van Dyne explore the Quantum Realm, interacting with strange new creatures and embarking on an adventure that pushes them beyond the limits of what they thought was possible.",
+    "characters": [
+      "char-scott-lang",
+      "char-hope-van-dyne",
+      "char-hank-pym",
+      "char-cassie-lang",
+      "char-janet-van-dyne",
+      "variant-kang-conqueror",
+      "char-modok"
+    ],
+    "organizations": [
+      "org-council-of-kangs"
+    ],
+    "locations": [
+      "loc-quantum-realm"
+    ],
+    "sources": [
+      {
+        "title": "Marvel.com — Quantumania",
+        "url": "https://marvel.com",
+        "publisher": "Marvel",
+        "type": "official"
+      }
+    ]
+  },
+  {
+    "id": "movie-gotg-vol3-2023",
+    "title": "Guardians of the Galaxy Vol. 3",
+    "releaseYear": "2023",
+    "phase": "5",
+    "saga": "Multiverse Saga",
+    "director": "James Gunn",
+    "synopsis": "Still reeling from the loss of Gamora, Peter Quill rallies his team to defend the universe and one of their own - a mission that could mean the end of the Guardians if not successful.",
+    "characters": [
+      "char-peter-quill",
+      "char-rocket",
+      "char-drax",
+      "char-groot",
+      "char-nebula",
+      "char-mantis",
+      "variant-gamora-endgame",
+      "char-high-evolutionary",
+      "char-adam-warlock"
+    ],
+    "organizations": [
+      "org-guardians",
+      "org-sovereign"
+    ],
+    "locations": [
+      "loc-knowhere",
+      "loc-counter-earth"
+    ],
+    "sources": [
+      {
+        "title": "Marvel.com — GOTG Vol 3",
+        "url": "https://marvel.com",
+        "publisher": "Marvel",
+        "type": "official"
+      }
+    ]
+  },
+  {
+    "id": "movie-the-marvels-2023",
+    "title": "The Marvels",
+    "releaseYear": "2023",
+    "phase": "5",
+    "saga": "Multiverse Saga",
+    "director": "Nia DaCosta",
+    "synopsis": "Carol Danvers gets her powers entangled with those of Kamala Khan and Monica Rambeau, forcing them to work together to save the universe.",
+    "characters": [
+      "char-carol-danvers",
+      "char-kamala-khan",
+      "char-monica-rambeau",
+      "char-nick-fury",
+      "char-dar-benn",
+      "char-valkyrie"
+    ],
+    "organizations": [
+      "org-saber",
+      "org-kree-empire"
+    ],
+    "locations": [
+      "loc-earth",
+      "loc-hala",
+      "loc-tarnax"
+    ],
+    "artifacts": [
+      "art-quantum-bands"
+    ],
+    "sources": [
+      {
+        "title": "Marvel.com — The Marvels",
+        "url": "https://marvel.com",
+        "publisher": "Marvel",
+        "type": "official"
+      }
+    ]
+  },
+  {
+    "id": "movie-black-widow-2021",
+    "title": "Black Widow",
+    "releaseYear": "2021",
+    "phase": "4",
+    "saga": "Multiverse Saga",
+    "director": "Cate Shortland",
+    "synopsis": "Natasha Romanoff confronts the darker parts of her ledger when a dangerous conspiracy with ties to her past arises.",
+    "characters": [
+      "char-natasha-romanoff",
+      "char-yelena-belova",
+      "char-alexei-shostakov",
+      "char-melina-vostokoff",
+      "char-taskmaster",
+      "char-dreykov"
+    ],
+    "organizations": [
+      "org-red-room"
+    ],
+    "locations": [
+      "loc-red-room-base"
+    ],
+    "sources": [
+      {
+        "title": "Marvel.com — Black Widow",
+        "url": "https://marvel.com",
+        "publisher": "Marvel",
+        "type": "official"
+      }
+    ]
+  },
+  {
+    "id": "movie-shang-chi-2021",
+    "title": "Shang-Chi and the Legend of the Ten Rings",
+    "releaseYear": "2021",
+    "phase": "4",
+    "saga": "Multiverse Saga",
+    "director": "Destin Daniel Cretton",
+    "synopsis": "Shang-Chi must confront the past he thought he left behind when he is drawn into the web of the mysterious Ten Rings organization.",
+    "characters": [
+      "char-shang-chi",
+      "char-xu-wenwu",
+      "char-katy",
+      "char-xu-xialing",
+      "char-ying-nan",
+      "char-trevor-slattery",
+      "char-wong",
+      "char-abomination"
+    ],
+    "organizations": [
+      "org-ten-rings"
+    ],
+    "locations": [
+      "loc-ta-lo",
+      "loc-macau"
+    ],
+    "artifacts": [
+      "art-ten-rings"
+    ],
+    "sources": [
+      {
+        "title": "Marvel.com — Shang-Chi",
+        "url": "https://marvel.com",
+        "publisher": "Marvel",
+        "type": "official"
+      }
+    ]
+  },
+  {
+    "id": "movie-eternals-2021",
+    "title": "Eternals",
+    "releaseYear": "2021",
+    "phase": "4",
+    "saga": "Multiverse Saga",
+    "director": "Chloé Zhao",
+    "synopsis": "The Eternals, a race of immortal beings with superhuman powers who have lived secretly on Earth for thousands of years, reunite to battle the evil Deviants.",
+    "characters": [
+      "char-sersi",
+      "char-ikaris",
+      "char-kingo",
+      "char-sprite",
+      "char-phastos",
+      "char-makkari",
+      "char-druig",
+      "char-gilgamesh",
+      "char-ajak",
+      "char-thena",
+      "char-dane-whitman",
+      "char-arishem"
+    ],
+    "organizations": [
+      "org-eternals",
+      "org-deviants",
+      "org-celestials"
+    ],
+    "locations": [
+      "loc-domo",
+      "loc-earth"
+    ],
+    "events": [
+      "event-the-emergence"
+    ],
+    "sources": [
+      {
+        "title": "Marvel.com — Eternals",
+        "url": "https://marvel.com",
+        "publisher": "Marvel",
+        "type": "official"
+      }
+    ]
+  },
+  {
+    "id": "movie-spider-man-nwh-2021",
+    "title": "Spider-Man: No Way Home",
+    "releaseYear": "2021",
+    "phase": "4",
+    "saga": "Multiverse Saga",
+    "director": "Jon Watts",
+    "synopsis": "With Spider-Man's identity now revealed, Peter asks Doctor Strange for help. When a spell goes wrong, dangerous foes from other worlds start to appear.",
+    "characters": [
+      "char-peter-parker",
+      "char-doctor-strange",
+      "char-mj",
+      "char-ned-leeds",
+      "variant-peter-parker-webb",
+      "variant-peter-parker-raimi",
+      "variant-norman-osborn",
+      "variant-otto-octavius"
+    ],
+    "locations": [
+      "loc-new-york-sanctum",
+      "loc-statue-of-liberty"
+    ],
+    "events": [
+      "event-runes-of-kauf-kaul"
+    ],
+    "sources": [
+      {
+        "title": "Marvel.com — Spider-Man NWH",
+        "url": "https://marvel.com",
+        "publisher": "Marvel",
+        "type": "official"
+      }
+    ]
+  },
+  {
+    "id": "movie-doctor-strange-mom-2022",
+    "title": "Doctor Strange in the Multiverse of Madness",
+    "releaseYear": "2022",
+    "phase": "4",
+    "saga": "Multiverse Saga",
+    "director": "Sam Raimi",
+    "synopsis": "Doctor Strange teams up with a mysterious teenage girl from his dreams who can travel across multiverses, to battle multiple threats.",
+    "characters": [
+      "char-doctor-strange",
+      "char-wanda-maximoff",
+      "char-america-chavez",
+      "char-wong",
+      "char-christine-palmer",
+      "variant-illuminati-prof-x",
+      "variant-illuminati-mr-fantastic",
+      "variant-illuminati-captain-carter"
+    ],
+    "organizations": [
+      "org-illuminati",
+      "org-masters-of-mystic-arts"
+    ],
+    "locations": [
+      "loc-kamar-taj",
+      "loc-mount-wundagore"
+    ],
+    "artifacts": [
+      "art-darkhold",
+      "art-book-of-vishanti"
+    ],
+    "events": [
+      "event-assault-on-kamar-taj"
+    ],
+    "sources": [
+      {
+        "title": "Marvel.com — Multiverse of Madness",
+        "url": "https://marvel.com",
+        "publisher": "Marvel",
+        "type": "official"
+      }
+    ]
+  },
+  {
+    "id": "movie-thor-love-and-thunder-2022",
+    "title": "Thor: Love and Thunder",
+    "releaseYear": "2022",
+    "phase": "4",
+    "saga": "Multiverse Saga",
+    "director": "Taika Waititi",
+    "synopsis": "Thor enlists the help of Valkyrie, Korg and ex-girlfriend Jane Foster to fight Gorr the God Butcher, who intends to make the gods extinct.",
+    "characters": [
+      "char-thor",
+      "char-jane-foster",
+      "char-valkyrie",
+      "char-gorr",
+      "char-korg",
+      "char-zeus"
+    ],
+    "locations": [
+      "loc-new-asgard",
+      "loc-omnipotence-city",
+      "loc-eternity-realm"
+    ],
+    "artifacts": [
+      "art-mjolnir",
+      "art-stormbreaker",
+      "art-necrosword"
+    ],
+    "sources": [
+      {
+        "title": "Marvel.com — Thor: Love and Thunder",
+        "url": "https://marvel.com",
+        "publisher": "Marvel",
+        "type": "official"
+      }
+    ]
+  },
+  {
+    "id": "movie-black-panther-wakanda-forever-2022",
+    "title": "Black Panther: Wakanda Forever",
+    "releaseYear": "2022",
+    "phase": "4",
+    "saga": "Multiverse Saga",
+    "director": "Ryan Coogler",
+    "synopsis": "The people of Wakanda fight to protect their home from intervening world powers as they mourn the death of King T'Challa.",
+    "characters": [
+      "char-shuri",
+      "char-namor",
+      "char-ramonda",
+      "char-okoye",
+      "char-riri-williams",
+      "char-mbaku",
+      "char-nakia",
+      "char-everett-ross"
+    ],
+    "organizations": [
+      "org-wakanda",
+      "org-talokan"
+    ],
+    "locations": [
+      "loc-wakanda",
+      "loc-talokan"
+    ],
+    "technologies": [
+      "tech-vibranium",
+      "tech-ironheart-armor"
+    ],
+    "sources": [
+      {
+        "title": "Marvel.com — Wakanda Forever",
+        "url": "https://marvel.com",
+        "publisher": "Marvel",
+        "type": "official"
+      }
+    ]
+  },
+  {
+    "id": "movie-iron-man-2008",
+    "title": "Iron Man",
+    "releaseYear": "2008",
+    "phase": "1",
+    "synopsis": "After being held captive in an Afghan cave, billionaire engineer Tony Stark creates a unique weaponized suit of armor to fight evil.",
+    "characters": [
+      "char-tony-stark",
+      "char-pepper-potts",
+      "char-james-rhodes",
+      "char-phil-coulson",
+      "char-nick-fury"
+    ],
+    "organizations": [
+      "org-stark-industries",
+      "org-shield",
+      "org-ten-rings"
+    ],
+    "locations": [
+      "loc-earth"
+    ]
+  },
+  {
+    "id": "movie-incredible-hulk-2008",
+    "title": "The Incredible Hulk",
+    "releaseYear": "2008",
+    "phase": "1",
+    "synopsis": "Bruce Banner, a scientist on the run from the U.S. Government, must find a cure for the monster he turns into whenever he loses his temper.",
+    "characters": [
+      "char-bruce-banner",
+      "char-tony-stark"
+    ],
+    "organizations": [
+      "org-shield"
+    ],
+    "locations": [
+      "loc-earth"
+    ]
+  },
+  {
+    "id": "movie-iron-man-2-2010",
+    "title": "Iron Man 2",
+    "releaseYear": "2010",
+    "phase": "1",
+    "synopsis": "With the world now aware of his identity as Iron Man, Tony Stark must contend with both his declining health and a vengeful mad man tied to his father's legacy.",
+    "characters": [
+      "char-tony-stark",
+      "char-pepper-potts",
+      "char-james-rhodes",
+      "char-natasha-romanoff",
+      "char-nick-fury",
+      "char-phil-coulson"
+    ],
+    "organizations": [
+      "org-stark-industries",
+      "org-shield"
+    ],
+    "locations": [
+      "loc-earth"
+    ]
+  },
+  {
+    "id": "movie-thor-2011",
+    "title": "Thor",
+    "releaseYear": "2011",
+    "phase": "1",
+    "synopsis": "The powerful but arrogant god Thor is cast out of Asgard to live amongst humans in Midgard (Earth), where he soon becomes one of their finest defenders.",
+    "characters": [
+      "char-thor",
+      "char-loki",
+      "char-phil-coulson",
+      "char-clint-barton",
+      "char-nick-fury"
+    ],
+    "organizations": [
+      "org-shield"
+    ],
+    "locations": [
+      "loc-asgard",
+      "loc-earth"
+    ]
+  },
+  {
+    "id": "movie-cap-first-avenger-2011",
+    "title": "Captain America: The First Avenger",
+    "releaseYear": "2011",
+    "phase": "1",
+    "synopsis": "Steve Rogers, a rejected military soldier, transforms into Captain America after taking a dose of a Super-Soldier serum.",
+    "characters": [
+      "char-steve-rogers",
+      "char-bucky-barnes",
+      "char-nick-fury"
+    ],
+    "organizations": [
+      "org-shield",
+      "org-hydra"
+    ],
+    "locations": [
+      "loc-earth"
+    ]
+  },
+  {
+    "id": "movie-avengers-2012",
+    "title": "The Avengers",
+    "releaseYear": "2012",
+    "phase": "1",
+    "synopsis": "Earth's mightiest heroes must come together and learn to fight as a team if they are going to stop the mischievous Loki and his alien army from enslaving humanity.",
+    "characters": [
+      "char-steve-rogers",
+      "char-tony-stark",
+      "char-thor",
+      "char-bruce-banner",
+      "char-natasha-romanoff",
+      "char-clint-barton",
+      "char-loki",
+      "char-nick-fury",
+      "char-phil-coulson"
+    ],
+    "organizations": [
+      "org-avengers",
+      "org-shield"
+    ],
+    "locations": [
+      "loc-new-york",
+      "loc-earth"
+    ],
+    "events": [
+      "event-battle-of-new-york"
+    ]
+  },
+  {
+    "id": "movie-deadpool-and-wolverine-2024",
+    "title": "Deadpool & Wolverine",
+    "releaseYear": "2024",
+    "phase": "5",
+    "saga": "Multiverse Saga",
+    "director": "Shawn Levy",
+    "synopsis": "A listless Wade Wilson toils away in civilian life with his days as the morally flexible mercenary, Deadpool, behind him. But when his homeworld faces an existential threat, Wade must reluctantly suit-up again with an even more reluctant Wolverine.",
+    "characters": [
+      "char-deadpool",
+      "char-wolverine",
+      "char-cassandra-nova",
+      "char-paradox",
+      "char-b-15"
+    ],
+    "organizations": [
+      "org-tva"
+    ],
+    "locations": [
+      "loc-void"
+    ],
+    "sources": [
+      {
+        "title": "Marvel.com — Deadpool & Wolverine",
+        "url": "https://marvel.com",
+        "publisher": "Marvel",
+        "type": "official"
+      }
+    ]
+  },
+  {
+    "id": "movie-fantastic-four-first-steps-2025",
+    "title": "The Fantastic Four: First Steps",
+    "releaseYear": "2025",
+    "phase": "6",
+    "saga": "Multiverse Saga",
+    "director": "Matt Shakman",
+    "synopsis": "Set in a vibrant, retro-futuristic 1960s alternative universe, Marvel Studios' The Fantastic Four introduces Marvel's First Family.",
+    "characters": [
+      "char-reed-richards",
+      "char-sue-storm",
+      "char-johnny-storm",
+      "char-ben-grimm",
+      "char-galactus",
+      "char-silver-surfer"
+    ],
+    "organizations": [
+      "org-fantastic-four"
+    ],
+    "locations": [
+      "loc-earth"
+    ],
+    "sources": [
+      {
+        "title": "Marvel.com — Fantastic Four",
+        "url": "https://marvel.com",
+        "publisher": "Marvel",
+        "type": "official"
+      }
+    ]
+  },
+  {
+    "id": "movie-cap-civil-war-2016",
+    "title": "Captain America: Civil War",
+    "releaseYear": "2016",
+    "phase": "3",
+    "synopsis": "Political involvement in the Avengers' affairs causes a rift between Captain America and Iron Man.",
+    "characters": [
+      "char-steve-rogers",
+      "char-tony-stark",
+      "char-natasha-romanoff",
+      "char-bucky-barnes",
+      "char-sam-wilson",
+      "char-james-rhodes",
+      "char-tchalla",
+      "char-peter-parker",
+      "char-wanda-maximoff",
+      "char-vision",
+      "char-clint-barton",
+      "char-scott-lang"
+    ],
+    "organizations": [
+      "org-avengers"
+    ],
+    "locations": [
+      "loc-earth"
+    ],
+    "events": [
+      "event-civil-war"
+    ]
+  },
+  {
+    "id": "movie-doctor-strange-2016",
+    "title": "Doctor Strange",
+    "releaseYear": "2016",
+    "phase": "3",
+    "synopsis": "While on a journey of physical and spiritual healing, a brilliant neurosurgeon is drawn into the world of the mystic arts.",
+    "characters": [
+      "char-stephen-strange",
+      "char-wong"
+    ],
+    "organizations": [
+      "org-masters-of-mystic-arts"
+    ],
+    "locations": [
+      "loc-earth",
+      "loc-kamar-taj"
+    ],
+    "artifacts": [
+      "artifact-eye-of-agamotto"
+    ]
+  },
+  {
+    "id": "movie-gotg-vol2-2017",
+    "title": "Guardians of the Galaxy Vol. 2",
+    "releaseYear": "2017",
+    "phase": "3",
+    "synopsis": "The Guardians struggle to keep together as a team while dealing with their personal family issues, notably Star-Lord's encounter with his father the ambitious celestial being Ego.",
+    "characters": [
+      "char-peter-quill",
+      "char-gamora",
+      "char-drax",
+      "char-rocket",
+      "char-groot"
+    ],
+    "organizations": [
+      "org-guardians"
+    ]
+  },
+  {
+    "id": "movie-spider-man-homecoming-2017",
+    "title": "Spider-Man: Homecoming",
+    "releaseYear": "2017",
+    "phase": "3",
+    "synopsis": "Peter Parker balances his life as an ordinary high school student in Queens with his superhero alter-ego Spider-Man, and finds himself on the trail of a new menace prowling the skies of New York City.",
+    "characters": [
+      "char-peter-parker",
+      "char-tony-stark"
+    ],
+    "locations": [
+      "loc-earth",
+      "loc-new-york"
+    ]
+  },
+  {
+    "id": "movie-thor-ragnarok-2017",
+    "title": "Thor: Ragnarok",
+    "releaseYear": "2017",
+    "phase": "3",
+    "synopsis": "Imprisoned on the planet Sakaar, Thor must race against time to return to Asgard and stop Ragnarök, the destruction of his world, at the hands of the powerful and ruthless villain Hela.",
+    "characters": [
+      "char-thor",
+      "char-loki",
+      "char-hela",
+      "char-bruce-banner"
+    ],
+    "locations": [
+      "loc-asgard",
+      "loc-sakaar"
+    ],
+    "events": [
+      "event-destruction-of-asgard"
+    ]
+  },
+  {
+    "id": "movie-black-panther-2018",
+    "title": "Black Panther",
+    "releaseYear": "2018",
+    "phase": "3",
+    "synopsis": "T'Challa, heir to the hidden but advanced kingdom of Wakanda, must step forward to lead his people into a new future and must confront a challenger from his country's past.",
+    "characters": [
+      "char-tchalla"
+    ],
+    "organizations": [
+      "org-wakanda"
+    ],
+    "locations": [
+      "loc-wakanda"
+    ],
+    "artifacts": [
+      "artifact-vibranium"
+    ]
+  },
+  {
+    "id": "movie-avengers-infinity-war-2018",
+    "title": "Avengers: Infinity War",
+    "releaseYear": "2018",
+    "phase": "3",
+    "synopsis": "The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe.",
+    "characters": [
+      "char-steve-rogers",
+      "char-tony-stark",
+      "char-thor",
+      "char-bruce-banner",
+      "char-natasha-romanoff",
+      "char-stephen-strange",
+      "char-peter-parker",
+      "char-tchalla",
+      "char-peter-quill",
+      "char-gamora",
+      "char-drax",
+      "char-rocket",
+      "char-groot",
+      "char-wanda-maximoff",
+      "char-vision",
+      "char-bucky-barnes",
+      "char-sam-wilson",
+      "char-james-rhodes",
+      "char-thanos"
+    ],
+    "organizations": [
+      "org-avengers",
+      "org-guardians",
+      "org-wakanda",
+      "org-masters-of-mystic-arts"
+    ],
+    "locations": [
+      "loc-earth",
+      "loc-new-york",
+      "loc-wakanda",
+      "loc-titan",
+      "loc-vormir"
+    ],
+    "events": [
+      "event-battle-of-titan",
+      "event-battle-of-wakanda",
+      "event-the-snap"
+    ]
+  },
+  {
+    "id": "movie-ant-man-wasp-2018",
+    "title": "Ant-Man and the Wasp",
+    "releaseYear": "2018",
+    "phase": "3",
+    "synopsis": "As Scott Lang balances being both a superhero and a father, Hope van Dyne and Dr. Hank Pym present an urgent new mission that finds the Ant-Man fighting alongside The Wasp to uncover secrets from their past.",
+    "characters": [
+      "char-scott-lang",
+      "char-hope-van-dyne",
+      "char-hank-pym"
+    ],
+    "locations": [
+      "loc-earth",
+      "loc-quantum-realm"
+    ]
+  },
+  {
+    "id": "movie-captain-marvel-2019",
+    "title": "Captain Marvel",
+    "releaseYear": "2019",
+    "phase": "3",
+    "synopsis": "Carol Danvers becomes one of the universe's most powerful heroes when Earth is caught in the middle of a galactic war between two alien races.",
+    "characters": [
+      "char-carol-danvers",
+      "char-nick-fury",
+      "char-phil-coulson"
+    ],
+    "organizations": [
+      "org-shield"
+    ],
+    "locations": [
+      "loc-earth"
+    ]
+  },
+  {
+    "id": "movie-avengers-endgame-2019",
+    "title": "Avengers: Endgame",
+    "releaseYear": "2019",
+    "phase": "3",
+    "synopsis": "After the devastating events of Infinity War, the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos' actions and restore balance to the universe.",
+    "characters": [
+      "char-steve-rogers",
+      "char-tony-stark",
+      "char-thor",
+      "char-bruce-banner",
+      "char-natasha-romanoff",
+      "char-clint-barton",
+      "char-scott-lang",
+      "char-james-rhodes",
+      "char-nebula",
+      "char-rocket",
+      "char-carol-danvers",
+      "char-thanos"
+    ],
+    "organizations": [
+      "org-avengers",
+      "org-shield"
+    ],
+    "locations": [
+      "loc-earth",
+      "loc-quantum-realm",
+      "loc-vormir"
+    ],
+    "events": [
+      "event-the-blip",
+      "event-time-heist",
+      "event-battle-of-earth",
+      "event-tony-sacrifice"
+    ]
+  },
+  {
+    "id": "movie-spider-man-far-from-home-2019",
+    "title": "Spider-Man: Far From Home",
+    "releaseYear": "2019",
+    "phase": "3",
+    "synopsis": "Following the events of Avengers: Endgame, Spider-Man must step up to take on new threats in a world that has changed forever.",
+    "characters": [
+      "char-peter-parker",
+      "char-nick-fury"
+    ],
+    "locations": [
+      "loc-earth"
+    ]
+  },
+  {
+    "id": "movie-iron-man-3-2013",
+    "title": "Iron Man 3",
+    "releaseYear": "2013",
+    "phase": "2",
+    "synopsis": "When Tony Stark's world is torn apart by a formidable terrorist called the Mandarin, he starts an odyssey of rebuilding and retribution.",
+    "characters": [
+      "char-tony-stark",
+      "char-pepper-potts",
+      "char-james-rhodes"
+    ],
+    "organizations": [
+      "org-stark-industries"
+    ],
+    "locations": [
+      "loc-earth"
+    ]
+  },
+  {
+    "id": "movie-thor-dark-world-2013",
+    "title": "Thor: The Dark World",
+    "releaseYear": "2013",
+    "phase": "2",
+    "synopsis": "When the Dark Elves attempt to plunge the universe into darkness, Thor must embark on a perilous and personal journey that will reunite him with doctor Jane Foster.",
+    "characters": [
+      "char-thor",
+      "char-loki"
+    ],
+    "organizations": [],
+    "locations": [
+      "loc-asgard",
+      "loc-earth"
+    ],
+    "artifacts": [
+      "artifact-aether"
+    ]
+  },
+  {
+    "id": "movie-cap-winter-soldier-2014",
+    "title": "Captain America: The Winter Soldier",
+    "releaseYear": "2014",
+    "phase": "2",
+    "synopsis": "As Steve Rogers struggles to embrace his role in the modern world, he teams up with a fellow Avenger and S.H.I.E.L.D agent, Black Widow, to battle a new threat from history: an assassin known as the Winter Soldier.",
+    "characters": [
+      "char-steve-rogers",
+      "char-natasha-romanoff",
+      "char-sam-wilson",
+      "char-bucky-barnes",
+      "char-nick-fury"
+    ],
+    "organizations": [
+      "org-shield",
+      "org-hydra"
+    ],
+    "locations": [
+      "loc-earth"
+    ],
+    "events": [
+      "event-fall-of-shield"
+    ]
+  },
+  {
+    "id": "movie-gotg-2014",
+    "title": "Guardians of the Galaxy",
+    "releaseYear": "2014",
+    "phase": "2",
+    "synopsis": "A group of intergalactic criminals must pull together to stop a fanatical warrior with plans to purge the universe.",
+    "characters": [
+      "char-peter-quill",
+      "char-gamora",
+      "char-drax",
+      "char-rocket",
+      "char-groot"
+    ],
+    "organizations": [
+      "org-guardians",
+      "org-nova-corps"
+    ],
+    "locations": [
+      "loc-xandar",
+      "loc-knowhere"
+    ],
+    "events": [
+      "event-battle-of-xandar"
+    ]
+  },
+  {
+    "id": "movie-avengers-age-of-ultron-2015",
+    "title": "Avengers: Age of Ultron",
+    "releaseYear": "2015",
+    "phase": "2",
+    "synopsis": "When Tony Stark and Bruce Banner try to jump-start a dormant peacekeeping program called Ultron, things go horribly wrong and it's up to Earth's mightiest heroes to stop the villainous Ultron from enacting his terrible plan.",
+    "characters": [
+      "char-tony-stark",
+      "char-steve-rogers",
+      "char-thor",
+      "char-bruce-banner",
+      "char-natasha-romanoff",
+      "char-clint-barton",
+      "char-ultron",
+      "char-vision",
+      "char-wanda-maximoff",
+      "char-nick-fury"
+    ],
+    "organizations": [
+      "org-avengers"
+    ],
+    "locations": [
+      "loc-sokovia",
+      "loc-earth"
+    ],
+    "events": [
+      "event-battle-of-sokovia"
+    ]
+  },
+  {
+    "id": "movie-ant-man-2015",
+    "title": "Ant-Man",
+    "releaseYear": "2015",
+    "phase": "2",
+    "synopsis": "Armed with a super-suit with the astonishing ability to shrink in scale but increase in strength, cat burglar Scott Lang must embrace his inner hero and help his mentor, Dr. Hank Pym, pull off a heist that will save the world.",
+    "characters": [
+      "char-scott-lang",
+      "char-hank-pym",
+      "char-hope-van-dyne",
+      "char-sam-wilson"
+    ],
+    "organizations": [],
+    "locations": [
+      "loc-earth"
+    ],
+    "artifacts": [
+      "artifact-pym-particles"
+    ]
+  },
+  {
+    "id": "special-werewolf-by-night",
+    "title": "Werewolf by Night",
+    "releaseYear": "2022",
+    "phase": "4",
+    "saga": "Multiverse Saga",
+    "director": "Michael Giacchino",
+    "synopsis": "On a dark and somber night, a secret cabal of monster hunters emerge from the shadows and gather at the foreboding Bloodstone Temple following the death of their leader.",
+    "characters": [
+      "char-jack-russell",
+      "char-elsa-bloodstone",
+      "char-man-thing"
+    ],
+    "locations": [
+      "loc-bloodstone-temple"
+    ],
+    "artifacts": [
+      "art-bloodstone"
+    ],
+    "sources": [
+      {
+        "title": "Marvel.com — Werewolf by Night",
+        "url": "https://marvel.com",
+        "publisher": "Marvel",
+        "type": "official"
+      }
+    ]
+  },
+  {
+    "id": "special-gotg-holiday",
+    "title": "The Guardians of the Galaxy Holiday Special",
+    "releaseYear": "2022",
+    "phase": "4",
+    "saga": "Multiverse Saga",
+    "director": "James Gunn",
+    "synopsis": "The Guardians, who are on a mission to make Christmas unforgettable for Quill, head to Earth in search of the perfect present.",
+    "characters": [
+      "char-peter-quill",
+      "char-drax",
+      "char-mantis",
+      "char-rocket",
+      "char-groot",
+      "char-kevin-bacon"
+    ],
+    "organizations": [
+      "org-guardians"
+    ],
+    "locations": [
+      "loc-knowhere",
+      "loc-earth"
+    ],
+    "sources": [
+      {
+        "title": "Marvel.com — GOTG Holiday Special",
+        "url": "https://marvel.com",
+        "publisher": "Marvel",
+        "type": "official"
+      }
+    ]
+  }
+]

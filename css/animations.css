@@ -1,0 +1,24 @@
+/* --- TRANSITIONS --- */
+/* Simple fade for page transitions if View Transitions API is not supported */
+.fade-in {
+    animation: fadeIn 0.8s ease forwards;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Base styles for GSAP target elements (initial states) */
+.gsap-reveal {
+    opacity: 0;
+    visibility: hidden;
+}
+
+/* Hover effects */
+.hover-glow {
+    transition: box-shadow var(--transition-smooth);
+}
+.hover-glow:hover {
+    box-shadow: 0 0 30px var(--clr-accent-glow);
+}

@@ -1,0 +1,100 @@
+module.exports = {
+    movies: [
+        {
+            "id": "movie-black-widow-2021",
+            "title": "Black Widow",
+            "releaseYear": "2021",
+            "phase": "4",
+            "saga": "Multiverse Saga",
+            "director": "Cate Shortland",
+            "synopsis": "Natasha Romanoff confronts the darker parts of her ledger when a dangerous conspiracy with ties to her past arises.",
+            "characters": ["char-natasha-romanoff", "char-yelena-belova", "char-alexei-shostakov", "char-melina-vostokoff", "char-taskmaster", "char-dreykov"],
+            "organizations": ["org-red-room"],
+            "locations": ["loc-red-room-base"],
+            "sources": [{"title": "Marvel.com — Black Widow", "url": "https://marvel.com", "publisher": "Marvel", "type": "official"}]
+        },
+        {
+            "id": "movie-shang-chi-2021",
+            "title": "Shang-Chi and the Legend of the Ten Rings",
+            "releaseYear": "2021",
+            "phase": "4",
+            "saga": "Multiverse Saga",
+            "director": "Destin Daniel Cretton",
+            "synopsis": "Shang-Chi must confront the past he thought he left behind when he is drawn into the web of the mysterious Ten Rings organization.",
+            "characters": ["char-shang-chi", "char-xu-wenwu", "char-katy", "char-xu-xialing", "char-ying-nan", "char-trevor-slattery", "char-wong", "char-abomination"],
+            "organizations": ["org-ten-rings"],
+            "locations": ["loc-ta-lo", "loc-macau"],
+            "artifacts": ["art-ten-rings"],
+            "sources": [{"title": "Marvel.com — Shang-Chi", "url": "https://marvel.com", "publisher": "Marvel", "type": "official"}]
+        },
+        {
+            "id": "movie-eternals-2021",
+            "title": "Eternals",
+            "releaseYear": "2021",
+            "phase": "4",
+            "saga": "Multiverse Saga",
+            "director": "Chloé Zhao",
+            "synopsis": "The Eternals, a race of immortal beings with superhuman powers who have lived secretly on Earth for thousands of years, reunite to battle the evil Deviants.",
+            "characters": ["char-sersi", "char-ikaris", "char-kingo", "char-sprite", "char-phastos", "char-makkari", "char-druig", "char-gilgamesh", "char-ajak", "char-thena", "char-dane-whitman", "char-arishem"],
+            "organizations": ["org-eternals", "org-deviants", "org-celestials"],
+            "locations": ["loc-domo", "loc-earth"],
+            "events": ["event-the-emergence"],
+            "sources": [{"title": "Marvel.com — Eternals", "url": "https://marvel.com", "publisher": "Marvel", "type": "official"}]
+        },
+        {
+            "id": "movie-spider-man-nwh-2021",
+            "title": "Spider-Man: No Way Home",
+            "releaseYear": "2021",
+            "phase": "4",
+            "saga": "Multiverse Saga",
+            "director": "Jon Watts",
+            "synopsis": "With Spider-Man's identity now revealed, Peter asks Doctor Strange for help. When a spell goes wrong, dangerous foes from other worlds start to appear.",
+            "characters": ["char-peter-parker", "char-doctor-strange", "char-mj", "char-ned-leeds", "variant-peter-parker-webb", "variant-peter-parker-raimi", "variant-norman-osborn", "variant-otto-octavius"],
+            "locations": ["loc-new-york-sanctum", "loc-statue-of-liberty"],
+            "events": ["event-runes-of-kauf-kaul"],
+            "sources": [{"title": "Marvel.com — Spider-Man NWH", "url": "https://marvel.com", "publisher": "Marvel", "type": "official"}]
+        },
+        {
+            "id": "movie-doctor-strange-mom-2022",
+            "title": "Doctor Strange in the Multiverse of Madness",
+            "releaseYear": "2022",
+            "phase": "4",
+            "saga": "Multiverse Saga",
+            "director": "Sam Raimi",
+            "synopsis": "Doctor Strange teams up with a mysterious teenage girl from his dreams who can travel across multiverses, to battle multiple threats.",
+            "characters": ["char-doctor-strange", "char-wanda-maximoff", "char-america-chavez", "char-wong", "char-christine-palmer", "variant-illuminati-prof-x", "variant-illuminati-mr-fantastic", "variant-illuminati-captain-carter"],
+            "organizations": ["org-illuminati", "org-masters-of-mystic-arts"],
+            "locations": ["loc-kamar-taj", "loc-mount-wundagore"],
+            "artifacts": ["art-darkhold", "art-book-of-vishanti"],
+            "events": ["event-assault-on-kamar-taj"],
+            "sources": [{"title": "Marvel.com — Multiverse of Madness", "url": "https://marvel.com", "publisher": "Marvel", "type": "official"}]
+        },
+        {
+            "id": "movie-thor-love-and-thunder-2022",
+            "title": "Thor: Love and Thunder",
+            "releaseYear": "2022",
+            "phase": "4",
+            "saga": "Multiverse Saga",
+            "director": "Taika Waititi",
+            "synopsis": "Thor enlists the help of Valkyrie, Korg and ex-girlfriend Jane Foster to fight Gorr the God Butcher, who intends to make the gods extinct.",
+            "characters": ["char-thor", "char-jane-foster", "char-valkyrie", "char-gorr", "char-korg", "char-zeus"],
+            "locations": ["loc-new-asgard", "loc-omnipotence-city", "loc-eternity-realm"],
+            "artifacts": ["art-mjolnir", "art-stormbreaker", "art-necrosword"],
+            "sources": [{"title": "Marvel.com — Thor: Love and Thunder", "url": "https://marvel.com", "publisher": "Marvel", "type": "official"}]
+        },
+        {
+            "id": "movie-black-panther-wakanda-forever-2022",
+            "title": "Black Panther: Wakanda Forever",
+            "releaseYear": "2022",
+            "phase": "4",
+            "saga": "Multiverse Saga",
+            "director": "Ryan Coogler",
+            "synopsis": "The people of Wakanda fight to protect their home from intervening world powers as they mourn the death of King T'Challa.",
+            "characters": ["char-shuri", "char-namor", "char-ramonda", "char-okoye", "char-riri-williams", "char-mbaku", "char-nakia", "char-everett-ross"],
+            "organizations": ["org-wakanda", "org-talokan"],
+            "locations": ["loc-wakanda", "loc-talokan"],
+            "technologies": ["tech-vibranium", "tech-ironheart-armor"],
+            "sources": [{"title": "Marvel.com — Wakanda Forever", "url": "https://marvel.com", "publisher": "Marvel", "type": "official"}]
+        }
+    ]
+};

@@ -1,0 +1,181 @@
+[
+  {
+    "id": "artifact-tesseract",
+    "name": "The Tesseract",
+    "abilities": [
+      "Space Manipulation",
+      "Energy Source"
+    ]
+  },
+  {
+    "id": "artifact-mjolnir",
+    "name": "Mjolnir",
+    "abilities": [
+      "Weather Control",
+      "Flight",
+      "Worthiness Enchantment"
+    ]
+  },
+  {
+    "id": "artifact-cap-shield",
+    "name": "Captain America's Shield",
+    "abilities": [
+      "Vibranium Absorption"
+    ]
+  },
+  {
+    "id": "artifact-space-stone",
+    "name": "Space Stone",
+    "abilities": [
+      "Teleportation",
+      "Space Manipulation"
+    ]
+  },
+  {
+    "id": "artifact-time-stone",
+    "name": "Time Stone",
+    "abilities": [
+      "Time Manipulation"
+    ]
+  },
+  {
+    "id": "artifact-soul-stone",
+    "name": "Soul Stone",
+    "abilities": [
+      "Soul Manipulation"
+    ]
+  },
+  {
+    "id": "artifact-eye-of-agamotto",
+    "name": "Eye of Agamotto",
+    "abilities": [
+      "Containment",
+      "Time Magic"
+    ]
+  },
+  {
+    "id": "artifact-infinity-gauntlet",
+    "name": "Infinity Gauntlet",
+    "abilities": [
+      "Channeling Infinity Stones"
+    ]
+  },
+  {
+    "id": "artifact-vibranium",
+    "name": "Vibranium",
+    "abilities": [
+      "Energy Absorption"
+    ]
+  },
+  {
+    "id": "artifact-power-stone",
+    "name": "Power Stone",
+    "abilities": [
+      "Energy Manipulation"
+    ]
+  },
+  {
+    "id": "artifact-orb",
+    "name": "The Orb",
+    "abilities": [
+      "Containment"
+    ]
+  },
+  {
+    "id": "artifact-mind-stone",
+    "name": "Mind Stone",
+    "abilities": [
+      "Consciousness Manipulation"
+    ]
+  },
+  {
+    "id": "artifact-scepter",
+    "name": "Loki's Scepter",
+    "abilities": [
+      "Energy Projection",
+      "Mind Control"
+    ]
+  },
+  {
+    "id": "artifact-reality-stone",
+    "name": "Reality Stone",
+    "abilities": [
+      "Reality Warping"
+    ]
+  },
+  {
+    "id": "artifact-aether",
+    "name": "The Aether",
+    "abilities": [
+      "Reality Warping",
+      "Dark Matter Infection"
+    ]
+  },
+  {
+    "id": "artifact-pym-particles",
+    "name": "Pym Particles",
+    "abilities": [
+      "Size Alteration"
+    ]
+  },
+  {
+    "id": "art-bloodstone",
+    "name": "The Bloodstone",
+    "abilities": [
+      "Monster Control",
+      "Longevity"
+    ]
+  },
+  {
+    "id": "art-ten-rings",
+    "name": "Ten Rings",
+    "abilities": [
+      "Energy Manipulation",
+      "Immortality"
+    ]
+  },
+  {
+    "id": "art-darkhold",
+    "name": "Darkhold",
+    "abilities": [
+      "Dark Magic",
+      "Dreamwalking"
+    ]
+  },
+  {
+    "id": "art-book-of-vishanti",
+    "name": "Book of Vishanti",
+    "abilities": [
+      "White Magic"
+    ]
+  },
+  {
+    "id": "art-stormbreaker",
+    "name": "Stormbreaker",
+    "abilities": [
+      "Bifrost Summoning",
+      "Energy Projection"
+    ]
+  },
+  {
+    "id": "art-necrosword",
+    "name": "All-Black the Necrosword",
+    "abilities": [
+      "God-Killing"
+    ]
+  },
+  {
+    "id": "art-kamala-bangle",
+    "name": "Kamala's Bangle",
+    "abilities": [
+      "Hard Light Projection"
+    ]
+  },
+  {
+    "id": "art-quantum-bands",
+    "name": "Quantum Bands",
+    "abilities": [
+      "Space-Time Manipulation"
+    ]
+  }
+]

@@ -1,0 +1,117 @@
+[
+  {
+    "id": "org-avengers",
+    "name": "The Avengers",
+    "founded": "2012"
+  },
+  {
+    "id": "org-shield",
+    "name": "S.H.I.E.L.D.",
+    "founded": "1940s"
+  },
+  {
+    "id": "org-hydra",
+    "name": "HYDRA",
+    "founded": "Ancient"
+  },
+  {
+    "id": "org-stark-industries",
+    "name": "Stark Industries",
+    "founded": "1940"
+  },
+  {
+    "id": "org-fantastic-four",
+    "name": "Fantastic Four",
+    "founded": "Unknown"
+  },
+  {
+    "id": "org-masters-of-mystic-arts",
+    "name": "Masters of the Mystic Arts",
+    "founded": "Ancient"
+  },
+  {
+    "id": "org-wakanda-royalty",
+    "name": "Golden Tribe (Wakanda)",
+    "founded": "Ancient"
+  },
+  {
+    "id": "org-guardians",
+    "name": "Guardians of the Galaxy",
+    "founded": "2014"
+  },
+  {
+    "id": "org-nova-corps",
+    "name": "Nova Corps",
+    "founded": "Unknown"
+  },
+  {
+    "id": "org-tva",
+    "name": "Time Variance Authority (TVA)",
+    "founded": "Outside Time"
+  },
+  {
+    "id": "org-red-room",
+    "name": "Red Room",
+    "founded": "Unknown"
+  },
+  {
+    "id": "org-ten-rings",
+    "name": "Ten Rings",
+    "founded": "Ancient"
+  },
+  {
+    "id": "org-eternals",
+    "name": "Eternals",
+    "founded": "Ancient"
+  },
+  {
+    "id": "org-deviants",
+    "name": "Deviants",
+    "founded": "Ancient"
+  },
+  {
+    "id": "org-celestials",
+    "name": "Celestials",
+    "founded": "Dawn of Time"
+  },
+  {
+    "id": "org-illuminati",
+    "name": "Illuminati",
+    "founded": "Unknown"
+  },
+  {
+    "id": "org-talokan",
+    "name": "Talokan",
+    "founded": "16th Century"
+  },
+  {
+    "id": "org-flag-smashers",
+    "name": "Flag Smashers",
+    "founded": "2023"
+  },
+  {
+    "id": "org-council-of-kangs",
+    "name": "Council of Kangs",
+    "founded": "Unknown"
+  },
+  {
+    "id": "org-sovereign",
+    "name": "Sovereign",
+    "founded": "Unknown"
+  },
+  {
+    "id": "org-saber",
+    "name": "S.A.B.E.R.",
+    "founded": "Unknown"
+  },
+  {
+    "id": "org-kree-empire",
+    "name": "Kree Empire",
+    "founded": "Ancient"
+  },
+  {
+    "id": "org-skrulls",
+    "name": "Skrull Resistance",
+    "founded": "Unknown"
+  }
+]

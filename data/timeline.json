@@ -1,0 +1,172 @@
+[
+  {
+    "id": "tl-cap-first-avenger",
+    "entityId": "movie-cap-first-avenger-2011",
+    "chronologicalYear": 1943
+  },
+  {
+    "id": "tl-iron-man",
+    "entityId": "movie-iron-man-2008",
+    "chronologicalYear": 2010
+  },
+  {
+    "id": "tl-iron-man-2",
+    "entityId": "movie-iron-man-2-2010",
+    "chronologicalYear": 2011
+  },
+  {
+    "id": "tl-incredible-hulk",
+    "entityId": "movie-incredible-hulk-2008",
+    "chronologicalYear": 2011
+  },
+  {
+    "id": "tl-thor",
+    "entityId": "movie-thor-2011",
+    "chronologicalYear": 2011
+  },
+  {
+    "id": "tl-avengers",
+    "entityId": "movie-avengers-2012",
+    "chronologicalYear": 2012
+  },
+  {
+    "id": "tl-event-new-york",
+    "entityId": "event-battle-of-new-york",
+    "chronologicalYear": 2012
+  },
+  {
+    "id": "tl-cap-civil-war",
+    "entityId": "movie-cap-civil-war-2016",
+    "chronologicalYear": 2016
+  },
+  {
+    "id": "tl-event-civil-war",
+    "entityId": "event-civil-war",
+    "chronologicalYear": 2016
+  },
+  {
+    "id": "tl-black-panther",
+    "entityId": "movie-black-panther-2018",
+    "chronologicalYear": 2016
+  },
+  {
+    "id": "tl-spider-man-homecoming",
+    "entityId": "movie-spider-man-homecoming-2017",
+    "chronologicalYear": 2016
+  },
+  {
+    "id": "tl-doctor-strange",
+    "entityId": "movie-doctor-strange-2016",
+    "chronologicalYear": 2016
+  },
+  {
+    "id": "tl-thor-ragnarok",
+    "entityId": "movie-thor-ragnarok-2017",
+    "chronologicalYear": 2017
+  },
+  {
+    "id": "tl-event-asgard",
+    "entityId": "event-destruction-of-asgard",
+    "chronologicalYear": 2017
+  },
+  {
+    "id": "tl-ant-man-wasp",
+    "entityId": "movie-ant-man-wasp-2018",
+    "chronologicalYear": 2018
+  },
+  {
+    "id": "tl-infinity-war",
+    "entityId": "movie-avengers-infinity-war-2018",
+    "chronologicalYear": 2018
+  },
+  {
+    "id": "tl-event-titan",
+    "entityId": "event-battle-of-titan",
+    "chronologicalYear": 2018
+  },
+  {
+    "id": "tl-event-wakanda",
+    "entityId": "event-battle-of-wakanda",
+    "chronologicalYear": 2018
+  },
+  {
+    "id": "tl-event-snap",
+    "entityId": "event-the-snap",
+    "chronologicalYear": 2018
+  },
+  {
+    "id": "tl-endgame",
+    "entityId": "movie-avengers-endgame-2019",
+    "chronologicalYear": 2023
+  },
+  {
+    "id": "tl-event-time-heist",
+    "entityId": "event-time-heist",
+    "chronologicalYear": 2023
+  },
+  {
+    "id": "tl-event-blip",
+    "entityId": "event-the-blip",
+    "chronologicalYear": 2023
+  },
+  {
+    "id": "tl-event-battle-earth",
+    "entityId": "event-battle-of-earth",
+    "chronologicalYear": 2023
+  },
+  {
+    "id": "tl-event-tony-sacrifice",
+    "entityId": "event-tony-sacrifice",
+    "chronologicalYear": 2023
+  },
+  {
+    "id": "tl-far-from-home",
+    "entityId": "movie-spider-man-far-from-home-2019",
+    "chronologicalYear": 2024
+  },
+  {
+    "id": "tl-iron-man-3",
+    "entityId": "movie-iron-man-3-2013",
+    "chronologicalYear": 2012
+  },
+  {
+    "id": "tl-thor-dark-world",
+    "entityId": "movie-thor-dark-world-2013",
+    "chronologicalYear": 2013
+  },
+  {
+    "id": "tl-cap-winter-soldier",
+    "entityId": "movie-cap-winter-soldier-2014",
+    "chronologicalYear": 2014
+  },
+  {
+    "id": "tl-gotg",
+    "entityId": "movie-gotg-2014",
+    "chronologicalYear": 2014
+  },
+  {
+    "id": "tl-event-fall-shield",
+    "entityId": "event-fall-of-shield",
+    "chronologicalYear": 2014
+  },
+  {
+    "id": "tl-event-xandar",
+    "entityId": "event-battle-of-xandar",
+    "chronologicalYear": 2014
+  },
+  {
+    "id": "tl-avengers-age-of-ultron",
+    "entityId": "movie-avengers-age-of-ultron-2015",
+    "chronologicalYear": 2015
+  },
+  {
+    "id": "tl-event-sokovia",
+    "entityId": "event-battle-of-sokovia",
+    "chronologicalYear": 2015
+  },
+  {
+    "id": "tl-ant-man",
+    "entityId": "movie-ant-man-2015",
+    "chronologicalYear": 2015
+  }
+]

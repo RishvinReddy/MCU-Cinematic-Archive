@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MCU Archive</title>
+    <!-- SEO & Metadata -->
+    <meta name="description" content="An interactive cinematic archive and knowledge graph for exploring the Marvel Cinematic Universe.">
+    <meta name="theme-color" content="#e62429">
+    <link rel="icon" type="image/png" href="./assets/icon-192.png">
+    <link rel="manifest" href="./manifest.webmanifest">
+    <meta property="og:title" content="MCU Cinematic Archive">
+    <meta property="og:description" content="Explore the Marvel Cinematic Universe through an interactive knowledge graph and detailed timeline.">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/components.css">
+    <link rel="stylesheet" href="./css/animations.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" defer></script>
+    <script src="./js/search.js" type="module"></script>
+    <script src="./js/entity-dossier.js" type="module"></script>
+</head>
+<body>
+    <div id="noise-overlay"></div>
+    
+    <nav class="top-nav">
+        <a href="index.html" class="nav-brand">MCU ARCHIVE</a>
+        <div class="nav-links">
+            <a href="timeline.html">TIMELINE</a>
+            <a href="connections.html">KNOWLEDGE GRAPH</a>
+            <button id="search-trigger" class="btn-icon">⌘K</button>
+        </div>
+    </nav>
+
+    <main class="container">
+        <div class="dossier-grid">
+            
+            <article class="dossier-main">
+                <header class="dossier-header">
+                    <div id="entity-badge-label" class="badge">ENTITY</div>
+                    <h1 id="entity-name" class="glitch-text" data-text="Loading...">Loading...</h1>
+                </header>
+                
+                <section class="dossier-section">
+                    <h3>Overview</h3>
+                    <div id="entity-description" class="lead-text">
+                        Loading classified records...
+                    </div>
+                </section>
+                
+                <section class="dossier-section">
+                    <h3>Classification Data</h3>
+                    <div id="entity-meta-fields" class="meta-grid">
+                        <!-- Dynamic fields injected here -->
+                    </div>
+                </section>
+            </article>
+            
+            <aside class="dossier-sidebar">
+                <section class="dossier-section">
+                    <h3>Connections</h3>
+                    <div id="entity-connections" class="entity-list"></div>
+                </section>
+            </aside>
+            
+        </div>
+    </main>
+
+    <dialog id="command-center" class="command-center">
+        <div class="command-center-header">
+            <input type="text" id="global-search-input" placeholder="Search the universe..." autocomplete="off">
+            <button id="close-search">ESC</button>
+        </div>
+        <div id="search-results" class="command-center-results">
+            <!-- Results injected here -->
+        </div>
+    </dialog>
+</body>
+</html>

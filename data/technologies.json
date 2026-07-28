@@ -1,0 +1,24 @@
+[
+  {
+    "id": "tech-arc-reactor",
+    "name": "Arc Reactor",
+    "creator": "char-tony-stark",
+    "purpose": "Clean Energy / Suit Power"
+  },
+  {
+    "id": "tech-iron-man-armor",
+    "name": "Iron Man Armor",
+    "creator": "char-tony-stark",
+    "purpose": "Combat / Defense"
+  },
+  {
+    "id": "tech-vibranium",
+    "name": "Vibranium Tech",
+    "purpose": "Defense and Offense"
+  },
+  {
+    "id": "tech-ironheart-armor",
+    "name": "Ironheart Armor",
+    "purpose": "Combat / Flight"
+  }
+]

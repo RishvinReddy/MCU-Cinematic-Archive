@@ -1,0 +1,203 @@
+[
+  {
+    "id": "loc-earth",
+    "name": "Earth",
+    "planet": "Earth",
+    "realm": "Midgard"
+  },
+  {
+    "id": "loc-asgard",
+    "name": "Asgard",
+    "planet": "Asgard",
+    "realm": "Asgard"
+  },
+  {
+    "id": "loc-new-york",
+    "name": "New York City",
+    "planet": "Earth",
+    "realm": "Midgard",
+    "partOf": "loc-earth"
+  },
+  {
+    "id": "loc-wakanda",
+    "name": "Wakanda",
+    "planet": "Earth",
+    "realm": "Midgard",
+    "partOf": "loc-earth"
+  },
+  {
+    "id": "loc-titan",
+    "name": "Titan",
+    "planet": "Titan",
+    "realm": "Unknown"
+  },
+  {
+    "id": "loc-vormir",
+    "name": "Vormir",
+    "planet": "Vormir",
+    "realm": "Unknown"
+  },
+  {
+    "id": "loc-sakaar",
+    "name": "Sakaar",
+    "planet": "Sakaar",
+    "realm": "Unknown"
+  },
+  {
+    "id": "loc-xandar",
+    "name": "Xandar",
+    "planet": "Xandar",
+    "realm": "Andromeda"
+  },
+  {
+    "id": "loc-knowhere",
+    "name": "Knowhere",
+    "planet": "Knowhere",
+    "realm": "Unknown"
+  },
+  {
+    "id": "loc-sokovia",
+    "name": "Sokovia",
+    "planet": "Earth",
+    "realm": "Midgard",
+    "partOf": "loc-earth"
+  },
+  {
+    "id": "loc-quantum-realm",
+    "name": "Quantum Realm",
+    "planet": "Microverse",
+    "realm": "Quantum"
+  },
+  {
+    "id": "loc-bloodstone-temple",
+    "name": "Bloodstone Temple",
+    "planet": "Earth",
+    "realm": "Midgard"
+  },
+  {
+    "id": "loc-red-room-base",
+    "name": "Red Room Base",
+    "planet": "Earth",
+    "realm": "Midgard"
+  },
+  {
+    "id": "loc-ta-lo",
+    "name": "Ta Lo",
+    "planet": "Ta Lo",
+    "realm": "Multiverse"
+  },
+  {
+    "id": "loc-macau",
+    "name": "Macau",
+    "planet": "Earth",
+    "realm": "Midgard"
+  },
+  {
+    "id": "loc-domo",
+    "name": "The Domo",
+    "planet": "Space",
+    "realm": "Space"
+  },
+  {
+    "id": "loc-new-york-sanctum",
+    "name": "New York Sanctum",
+    "planet": "Earth",
+    "realm": "Midgard"
+  },
+  {
+    "id": "loc-statue-of-liberty",
+    "name": "Statue of Liberty",
+    "planet": "Earth",
+    "realm": "Midgard"
+  },
+  {
+    "id": "loc-kamar-taj",
+    "name": "Kamar-Taj",
+    "planet": "Earth",
+    "realm": "Midgard"
+  },
+  {
+    "id": "loc-mount-wundagore",
+    "name": "Mount Wundagore",
+    "planet": "Earth",
+    "realm": "Midgard"
+  },
+  {
+    "id": "loc-new-asgard",
+    "name": "New Asgard",
+    "planet": "Earth",
+    "realm": "Midgard"
+  },
+  {
+    "id": "loc-omnipotence-city",
+    "name": "Omnipotence City",
+    "planet": "Unknown",
+    "realm": "Gods"
+  },
+  {
+    "id": "loc-eternity-realm",
+    "name": "Realm of Eternity",
+    "planet": "Unknown",
+    "realm": "Cosmic"
+  },
+  {
+    "id": "loc-talokan",
+    "name": "Talokan",
+    "planet": "Earth",
+    "realm": "Midgard"
+  },
+  {
+    "id": "loc-westview",
+    "name": "Westview",
+    "planet": "Earth",
+    "realm": "Midgard"
+  },
+  {
+    "id": "loc-london",
+    "name": "London",
+    "planet": "Earth",
+    "realm": "Midgard"
+  },
+  {
+    "id": "loc-cairo",
+    "name": "Cairo",
+    "planet": "Earth",
+    "realm": "Midgard"
+  },
+  {
+    "id": "loc-duat",
+    "name": "Duat",
+    "planet": "Duat",
+    "realm": "Afterlife"
+  },
+  {
+    "id": "loc-counter-earth",
+    "name": "Counter-Earth",
+    "planet": "Counter-Earth",
+    "realm": "Space"
+  },
+  {
+    "id": "loc-hala",
+    "name": "Hala",
+    "planet": "Hala",
+    "realm": "Kree"
+  },
+  {
+    "id": "loc-tarnax",
+    "name": "Tarnax",
+    "planet": "Tarnax",
+    "realm": "Skrull"
+  },
+  {
+    "id": "loc-end-of-time",
+    "name": "Citadel at the End of Time",
+    "planet": "Unknown",
+    "realm": "End of Time"
+  },
+  {
+    "id": "loc-void",
+    "name": "The Void",
+    "planet": "Unknown",
+    "realm": "End of Time"
+  }
+]

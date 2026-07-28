@@ -1,0 +1,107 @@
+module.exports = {
+    series: [
+        { 
+            "id": "series-loki", 
+            "title": "Loki", 
+            "releaseYear": "2021", 
+            "phase": "4", 
+            "synopsis": "The mercurial villain Loki resumes his role as the God of Mischief in a new series that takes place after the events of Avengers: Endgame.",
+            "seasons": [
+                { "title": "Season 1", "releaseYear": "2021", "episodes": 6, "synopsis": "Loki is brought to the mysterious Time Variance Authority organization after stealing the Tesseract during the events of Avengers: Endgame." },
+                { "title": "Season 2", "releaseYear": "2023", "episodes": 6, "synopsis": "Loki navigates an ever-expanding and increasingly dangerous multiverse in search of Sylvie, Judge Renslayer, and Miss Minutes." }
+            ],
+            "sources": [{ "title": "Marvel.com — Loki", "url": "https://marvel.com", "publisher": "Marvel", "type": "official" }]
+        },
+        {
+            "id": "series-wandavision",
+            "title": "WandaVision",
+            "releaseYear": "2021",
+            "phase": "4",
+            "saga": "Multiverse Saga",
+            "synopsis": "Blends the style of classic sitcoms with the MCU in which Wanda Maximoff and Vision - two super-powered beings living their ideal suburban lives - begin to suspect that everything is not as it seems.",
+            "seasons": [{ "title": "Season 1", "releaseYear": "2021", "episodes": 9, "synopsis": "Wanda creates a hex over Westview." }],
+            "characters": ["char-wanda-maximoff", "char-vision", "char-agatha-harkness", "char-monica-rambeau", "char-darcy-lewis", "char-jimmy-woo"],
+            "locations": ["loc-westview"],
+            "events": ["event-the-hex"],
+            "sources": [{ "title": "Marvel.com — WandaVision", "url": "https://marvel.com", "publisher": "Marvel", "type": "official" }]
+        },
+        {
+            "id": "series-tfatws",
+            "title": "The Falcon and The Winter Soldier",
+            "releaseYear": "2021",
+            "phase": "4",
+            "saga": "Multiverse Saga",
+            "synopsis": "Following the events of Avengers: Endgame, Sam Wilson/Falcon and Bucky Barnes/Winter Soldier team up in a global adventure that tests their abilities—and their patience.",
+            "seasons": [{ "title": "Season 1", "releaseYear": "2021", "episodes": 6 }],
+            "characters": ["char-sam-wilson", "char-bucky-barnes", "char-zemo", "char-john-walker", "char-karli-morgenthau", "char-sharon-carter"],
+            "organizations": ["org-flag-smashers"],
+            "sources": [{ "title": "Marvel.com — TFATWS", "url": "https://marvel.com", "publisher": "Marvel", "type": "official" }]
+        },
+        {
+            "id": "series-moon-knight",
+            "title": "Moon Knight",
+            "releaseYear": "2022",
+            "phase": "4",
+            "saga": "Multiverse Saga",
+            "synopsis": "Steven Grant discovers he's been granted the powers of an Egyptian moon god. But he soon finds out that these newfound powers can be both a blessing and a curse to his troubled life.",
+            "seasons": [{ "title": "Season 1", "releaseYear": "2022", "episodes": 6 }],
+            "characters": ["char-marc-spector", "char-steven-grant", "char-arthur-harrow", "char-khonshu", "char-layla-elfaouly"],
+            "locations": ["loc-london", "loc-cairo", "loc-duat"],
+            "sources": [{ "title": "Marvel.com — Moon Knight", "url": "https://marvel.com", "publisher": "Marvel", "type": "official" }]
+        },
+        {
+            "id": "series-ms-marvel",
+            "title": "Ms. Marvel",
+            "releaseYear": "2022",
+            "phase": "4",
+            "saga": "Multiverse Saga",
+            "synopsis": "Kamala Khan, a Muslim American teen growing up in Jersey City, is a Super Hero mega-fan with an oversized imagination—particularly when it comes to Captain Marvel.",
+            "seasons": [{ "title": "Season 1", "releaseYear": "2022", "episodes": 6 }],
+            "characters": ["char-kamala-khan", "char-bruno", "char-kamran", "char-najma"],
+            "artifacts": ["art-kamala-bangle"],
+            "sources": [{ "title": "Marvel.com — Ms. Marvel", "url": "https://marvel.com", "publisher": "Marvel", "type": "official" }]
+        },
+        {
+            "id": "series-secret-invasion",
+            "title": "Secret Invasion",
+            "releaseYear": "2023",
+            "phase": "5",
+            "saga": "Multiverse Saga",
+            "synopsis": "Nick Fury learns of a clandestine invasion of Earth by a faction of shapeshifting Skrulls.",
+            "seasons": [{ "title": "Season 1", "releaseYear": "2023", "episodes": 6 }],
+            "characters": ["char-nick-fury", "char-talos", "char-gravik", "char-giah", "char-maria-hill", "char-james-rhodes"],
+            "organizations": ["org-skrulls"],
+            "locations": ["loc-earth"],
+            "sources": [{ "title": "Marvel.com — Secret Invasion", "url": "https://marvel.com", "publisher": "Marvel", "type": "official" }]
+        }
+    ],
+    characters: [
+        { "id": "char-mobius", "name": "Mobius M. Mobius", "aliases": ["Agent Mobius"] },
+        { "id": "char-sylvie", "name": "Sylvie", "aliases": ["The Variant"] },
+        { "id": "char-he-who-remains", "name": "He Who Remains", "aliases": [] }
+    ],
+    variants: [
+        {
+            "id": "variant-loki-2012",
+            "name": "Loki (2012 Variant)",
+            "baseCharacter": "char-loki",
+            "universe": "universe-earth-616",
+            "originTimeline": "timeline-2012-branch"
+        }
+    ],
+    organizations: [
+        { "id": "org-tva", "name": "Time Variance Authority (TVA)", "founded": "Outside Time" }
+    ],
+    events: [
+        { "id": "event-multiversal-war", "name": "Multiversal War", "date": "Unknown", "location": "loc-end-of-time" }
+    ],
+    relationships: [
+        { "source": "variant-loki-2012", "target": "char-loki", "type": "variant-of" },
+        { "source": "char-sylvie", "target": "char-loki", "type": "variant-of" },
+        { "source": "variant-loki-2012", "target": "org-tva", "type": "encounters", "context": { "project": "series-loki", "season": 1 } },
+        { "source": "char-mobius", "target": "org-tva", "type": "member-of" },
+        { "source": "universe-earth-616", "target": "org-tva", "type": "monitored-by" },
+        { "source": "char-he-who-remains", "target": "event-multiversal-war", "type": "participated-in" },
+        { "source": "char-he-who-remains", "target": "org-tva", "type": "created-by" } // he created TVA. source: org-tva, target: he-who-remains, type: created-by.
+    ]
+};

@@ -1,0 +1,54 @@
+[
+  {
+    "id": "variant-loki-2012",
+    "name": "Loki (2012 Variant)",
+    "baseCharacter": "char-loki",
+    "universe": "universe-earth-616",
+    "originTimeline": "timeline-2012-branch"
+  },
+  {
+    "id": "variant-kang-conqueror",
+    "name": "Kang the Conqueror",
+    "baseCharacter": "char-he-who-remains"
+  },
+  {
+    "id": "variant-peter-parker-webb",
+    "name": "Peter Parker (Webb)",
+    "baseCharacter": "char-peter-parker"
+  },
+  {
+    "id": "variant-peter-parker-raimi",
+    "name": "Peter Parker (Raimi)",
+    "baseCharacter": "char-peter-parker"
+  },
+  {
+    "id": "variant-norman-osborn",
+    "name": "Norman Osborn",
+    "baseCharacter": "char-norman-osborn"
+  },
+  {
+    "id": "variant-otto-octavius",
+    "name": "Otto Octavius",
+    "baseCharacter": "char-otto-octavius"
+  },
+  {
+    "id": "variant-illuminati-prof-x",
+    "name": "Professor X (838)",
+    "baseCharacter": "char-charles-xavier"
+  },
+  {
+    "id": "variant-illuminati-mr-fantastic",
+    "name": "Mister Fantastic (838)",
+    "baseCharacter": "char-reed-richards"
+  },
+  {
+    "id": "variant-illuminati-captain-carter",
+    "name": "Captain Carter (838)",
+    "baseCharacter": "char-peggy-carter"
+  },
+  {
+    "id": "variant-gamora-endgame",
+    "name": "Gamora (2014 Variant)",
+    "baseCharacter": "char-gamora"
+  }
+]

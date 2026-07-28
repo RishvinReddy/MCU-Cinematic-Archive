@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MCU — Connections</title>
+    <!-- SEO & Metadata -->
+    <meta name="description" content="An interactive cinematic archive and knowledge graph for exploring the Marvel Cinematic Universe.">
+    <meta name="theme-color" content="#e62429">
+    <link rel="icon" type="image/png" href="./assets/icon-192.png">
+    <link rel="manifest" href="./manifest.webmanifest">
+    <meta property="og:title" content="MCU Cinematic Archive">
+    <meta property="og:description" content="Explore the Marvel Cinematic Universe through an interactive knowledge graph and detailed timeline.">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Oswald:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/components.css">
+    <link rel="stylesheet" href="./css/animations.css">
+    <script src="https://d3js.org/d3.v7.min.js" defer></script>
+    <script src="./js/sound.js" defer></script>
+    <script src="./js/data-loader.js" type="module"></script>
+    <script src="./js/search.js" type="module"></script>
+    <script src="./js/graph.js" type="module"></script>
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    <div id="noise-overlay"></div>
+    <header class="global-header">
+        <div class="logo"><h1>MCU <span>ARCHIVE</span></h1></div>
+        <nav class="main-nav">
+            <a href="./index.html">Home</a>
+            <a href="./timeline.html">Timeline</a>
+            <a href="./movies.html">Movies</a>
+            <a href="./characters.html">Characters</a>
+            <a href="./connections.html" class="active">Connections</a>
+        </nav>
+        <div class="header-actions" style="display: flex; gap: 1rem; align-items: center;">
+            <button id="sound-toggle" class="icon-btn" aria-label="Toggle Sound" title="Toggle Sound">
+                <span class="icon sound-icon">🔇</span>
+            </button>
+            <button id="search-trigger" class="search-trigger"><span class="icon">⌕</span> Search <span>⌘K</span></button>
+        </div>
+    </header>
+
+    <main id="main-content" class="container" style="padding-top: 120px; height: 100vh; display: flex; flex-direction: column;">
+        <h2 class="editorial-heading" style="font-size: clamp(2rem, 5vw, 4rem);">Knowledge Graph</h2>
+        <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap;">
+            <p>Explore the connections across the Marvel Cinematic Universe.</p>
+            
+            <div class="toggle-container" id="view-toggles" style="display: none;">
+                <button id="btn-graph-view" class="toggle-btn active">Graph</button>
+                <button id="btn-list-view" class="toggle-btn">List</button>
+            </div>
+        </div>
+
+        <div id="d3-graph-container" style="flex: 1; border: 1px solid var(--clr-border); border-radius: 8px; margin-top: 2rem; background: rgba(0,0,0,0.5);">
+            <!-- D3 Force Graph will be injected here -->
+        </div>
+        
+        <div id="list-view-container" style="display: none; flex: 1; overflow-y: auto; margin-top: 2rem;">
+            <!-- Semantic List View for smaller viewports or fallback -->
+        </div>
+    </main>
+</body>
+</html>

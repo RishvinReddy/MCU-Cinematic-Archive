@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MCU — Timeline</title>
+    <!-- SEO & Metadata -->
+    <meta name="description" content="An interactive cinematic archive and knowledge graph for exploring the Marvel Cinematic Universe.">
+    <meta name="theme-color" content="#e62429">
+    <link rel="icon" type="image/png" href="./assets/icon-192.png">
+    <link rel="manifest" href="./manifest.webmanifest">
+    <meta property="og:title" content="MCU Cinematic Archive">
+    <meta property="og:description" content="Explore the Marvel Cinematic Universe through an interactive knowledge graph and detailed timeline.">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Oswald:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/components.css">
+    <link rel="stylesheet" href="./css/animations.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" defer></script>
+    <script src="./js/sound.js" defer></script>
+    <script src="./js/data-loader.js" type="module"></script>
+    <script src="./js/search.js" type="module"></script>
+    <script src="./js/timeline.js" type="module"></script>
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    <!-- Command Center (Search Overlay) -->
+    <dialog id="command-center" class="command-center" aria-label="Command Center">
+        <div class="command-center-container">
+            <div class="search-header">
+                <span class="icon" aria-hidden="true">⌕</span>
+                <input type="text" id="global-search-input" placeholder="Search the Marvel Cinematic Universe..." autocomplete="off" aria-label="Search the Marvel Cinematic Universe">
+                <button id="close-search" aria-label="Close search">ESC</button>
+            </div>
+        </div>
+    </dialog>
+    <div id="noise-overlay"></div>
+    <header class="global-header">
+        <div class="logo"><h1>MCU <span>ARCHIVE</span></h1></div>
+        <nav class="main-nav">
+            <a href="./index.html">Home</a>
+            <a href="./timeline.html" class="active">Timeline</a>
+            <a href="./movies.html">Movies</a>
+            <a href="./characters.html">Characters</a>
+            <a href="./connections.html">Connections</a>
+        </nav>
+        <div class="header-actions" style="display: flex; gap: 1rem; align-items: center;">
+            <button id="sound-toggle" class="icon-btn" aria-label="Toggle Sound" title="Toggle Sound">
+                <span class="icon sound-icon">🔇</span>
+            </button>
+            <button id="search-trigger" class="search-trigger"><span class="icon">⌕</span> Search <span>⌘K</span></button>
+        </div>
+    </header>
+
+    <main id="main-content" class="container" style="padding-top: 120px;">
+        <h2 class="editorial-heading" style="text-align: center; font-size: clamp(2rem, 5vw, 4rem);">The MCU Timeline</h2>
+        <div class="timeline-controls" style="display: flex; flex-direction: column; align-items: center; gap: 1rem;">
+            <div class="toggle-container" style="margin-bottom: 0;">
+                <button id="btn-release" class="toggle-btn active">Release Order</button>
+                <button id="btn-chronological" class="toggle-btn">Chronological</button>
+            </div>
+            
+            <div class="filter-container" style="display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center;">
+                <label style="color: var(--clr-text-main); font-size: 0.9rem; display: flex; align-items: center; gap: 0.5rem; cursor: pointer;">
+                    <input type="checkbox" class="timeline-filter" value="movie" checked> Movies
+                </label>
+                <label style="color: var(--clr-text-main); font-size: 0.9rem; display: flex; align-items: center; gap: 0.5rem; cursor: pointer;">
+                    <input type="checkbox" class="timeline-filter" value="series" checked> Series
+                </label>
+                <label style="color: var(--clr-text-main); font-size: 0.9rem; display: flex; align-items: center; gap: 0.5rem; cursor: pointer;">
+                    <input type="checkbox" class="timeline-filter" value="event" checked> Events
+                </label>
+                <label style="color: var(--clr-text-main); font-size: 0.9rem; display: flex; align-items: center; gap: 0.5rem; cursor: pointer;">
+                    <input type="checkbox" class="timeline-filter" value="character"> Characters
+                </label>
+            </div>
+        </div>
+        <div id="timeline-container">
+            <!-- Timeline elements will be drawn here -->
+        </div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 — Universe Not Found</title>
+    <!-- SEO & Metadata -->
+    <meta name="description" content="An interactive cinematic archive and knowledge graph for exploring the Marvel Cinematic Universe.">
+    <meta name="theme-color" content="#e62429">
+    <link rel="icon" type="image/png" href="./assets/icon-192.png">
+    <link rel="manifest" href="./manifest.webmanifest">
+    <meta property="og:title" content="MCU Cinematic Archive">
+    <meta property="og:description" content="Explore the Marvel Cinematic Universe through an interactive knowledge graph and detailed timeline.">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Oswald:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/components.css">
+    <link rel="stylesheet" href="./css/animations.css">
+    <style>
+        .error-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            text-align: center;
+            padding: 2rem;
+        }
+        .error-code {
+            font-family: 'Oswald', sans-serif;
+            font-size: clamp(6rem, 15vw, 12rem);
+            line-height: 1;
+            margin-bottom: 1rem;
+            color: var(--clr-accent);
+            text-shadow: 0 0 40px rgba(230, 36, 41, 0.4);
+        }
+    </style>
+</head>
+<body class="saga-multiverse">
+    <div id="noise-overlay"></div>
+    <div class="saga-ambient-bg"></div>
+    <header class="global-header">
+        <div class="logo"><h1>MCU <span>ARCHIVE</span></h1></div>
+        <nav class="main-nav">
+            <a href="./index.html">Home</a>
+            <a href="./timeline.html">Timeline</a>
+            <a href="./movies.html">Movies</a>
+            <a href="./characters.html">Characters</a>
+            <a href="./connections.html">Connections</a>
+        </nav>
+    </header>
+
+    <main class="error-container">
+        <h1 class="error-code">404</h1>
+        <h2 class="editorial-heading">Universe Not Found</h2>
+        <p style="color: var(--clr-text-muted); max-width: 500px; margin: 1.5rem auto 2.5rem; font-size: 1.2rem;">
+            It seems this timeline has been pruned, or you've wandered into a branch that doesn't exist yet.
+        </p>
+        <a href="./index.html" class="btn-primary" style="text-decoration: none; display: inline-block;">Return to the Sacred Timeline</a>
+    </main>
+</body>
+</html>

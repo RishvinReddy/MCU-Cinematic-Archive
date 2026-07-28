@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MCU — Movies</title>
+    <!-- SEO & Metadata -->
+    <meta name="description" content="An interactive cinematic archive and knowledge graph for exploring the Marvel Cinematic Universe.">
+    <meta name="theme-color" content="#e62429">
+    <link rel="icon" type="image/png" href="./assets/icon-192.png">
+    <link rel="manifest" href="./manifest.webmanifest">
+    <meta property="og:title" content="MCU Cinematic Archive">
+    <meta property="og:description" content="Explore the Marvel Cinematic Universe through an interactive knowledge graph and detailed timeline.">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Oswald:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/components.css">
+    <link rel="stylesheet" href="./css/animations.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" defer></script>
+    <script src="./js/sound.js" defer></script>
+    <script src="./js/data-loader.js" type="module"></script>
+    <script src="./js/search.js" type="module"></script>
+    <script src="./js/movies.js" type="module"></script>
+</head>
+<body>
+    <a href="#dossier-container" class="skip-link">Skip to main content</a>
+    <div id="noise-overlay"></div>
+    <header class="global-header">
+        <div class="logo"><h1>MCU <span>ARCHIVE</span></h1></div>
+        <nav class="main-nav">
+            <a href="./index.html">Home</a>
+            <a href="./timeline.html">Timeline</a>
+            <a href="./movies.html" class="active">Movies</a>
+            <a href="./characters.html">Characters</a>
+            <a href="./connections.html">Connections</a>
+        </nav>
+        <div class="header-actions" style="display: flex; gap: 1rem; align-items: center;">
+            <button id="sound-toggle" class="icon-btn" aria-label="Toggle Sound" title="Toggle Sound">
+                <span class="icon sound-icon">🔇</span>
+            </button>
+            <button id="search-trigger" class="search-trigger"><span class="icon">⌕</span> Search <span>⌘K</span></button>
+        </div>
+    </header>
+
+    <main id="dossier-container" class="container" style="padding-top: 100px; padding-bottom: 100px; display: none;">
+        <div class="saga-ambient-bg"></div>
+        <!-- Dossier Header -->
+        <header class="dossier-header">
+            <h4 id="movie-phase" class="editorial-meta"></h4>
+            <h1 id="movie-title" class="editorial-heading" style="margin-bottom: 1rem;"></h1>
+            <div class="dossier-specs" id="movie-specs"></div>
+        </header>
+
+        <!-- Main Dossier Content -->
+        <div class="dossier-grid">
+            <div class="dossier-main">
+                <section class="dossier-section">
+                    <h3>Overview</h3>
+                    <p id="movie-synopsis" class="text-large"></p>
+                </section>
+                
+                <section class="dossier-section">
+                    <h3>Characters</h3>
+                    <div id="movie-characters" class="entity-list"></div>
+                </section>
+                
+                <section class="dossier-section">
+                    <h3>Important Events</h3>
+                    <div id="movie-events" class="entity-list"></div>
+                </section>
+            </div>
+            
+            <aside class="dossier-sidebar">
+                <section class="dossier-section">
+                    <h3>Connections</h3>
+                    <div id="movie-connections" class="entity-list"></div>
+                </section>
+                
+                <section class="dossier-section">
+                    <h3>Artifacts</h3>
+                    <ul id="movie-artifacts" class="simple-list"></ul>
+                </section>
+                
+                <section class="dossier-section">
+                    <h3>Locations</h3>
+                    <ul id="movie-locations" class="simple-list"></ul>
+                </section>
+            </aside>
+        </div>
+    </main>
+
+    <main id="movies-list-container" class="container" style="padding-top: 120px;">
+        <h2 class="editorial-heading" style="font-size: clamp(2rem, 5vw, 4rem);">Movies Archive</h2>
+        <div id="movies-grid" class="grid" style="grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); margin-top: 2rem;"></div>
+    </main>
+
+    <!-- Command Center -->
+    <dialog id="command-center" class="command-center" aria-label="Command Center">
+        <div class="command-center-container">
+            <div class="search-header">
+                <span class="icon" aria-hidden="true">⌕</span>
+                <input type="text" id="global-search-input" placeholder="Search the Marvel Cinematic Universe..." autocomplete="off" aria-label="Search the Marvel Cinematic Universe">
+                <button id="close-search" aria-label="Close search">ESC</button>
+            </div>
+            <div class="search-results" id="search-results"></div>
+        </div>
+    </dialog>
+</body>
+</html>
